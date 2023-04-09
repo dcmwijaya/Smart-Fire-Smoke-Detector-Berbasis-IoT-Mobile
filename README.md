@@ -38,6 +38,7 @@ Final Project Indobot Academy: Kelas Mulai Menjadi IoT Engineer Hebat
 ## 7. Implementation
 <table border="0">
   <img src="https://user-images.githubusercontent.com/54527592/230714068-daaa11fd-2d23-4870-95c4-b946df4f036b.JPG" style="width:1920px;">
+  <img src="https://user-images.githubusercontent.com/54527592/230768145-f70b5be3-38aa-4728-9524-2c75360eaf72.jpg" style="width:1920px;">
   <img src="https://user-images.githubusercontent.com/54527592/230712751-33315d3e-0264-49d5-be01-26cca253053e.JPG">
   <tr>
     <td><img src="https://user-images.githubusercontent.com/54527592/230712782-dc6db3e1-b8d2-40e3-8a2d-8d55158c4a8d.png"></td>
