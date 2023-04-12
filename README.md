@@ -24,7 +24,7 @@ Final Project Indobot Academy: Kelas Mulai Menjadi IoT Engineer Hebat
 <br/><br/>
 
 ## 4. Infrastructure In Project
-<img src="https://user-images.githubusercontent.com/54527592/230712698-474c1d89-dd63-415c-b8d8-b0f37af09048.jpg">
+<img src="https://user-images.githubusercontent.com/54527592/231572412-e9f16257-0fdd-4237-8f61-4a72559a68fb.jpg">
 <br/><br/>
 
 ## 5. Designing Prototype
@@ -32,7 +32,7 @@ Final Project Indobot Academy: Kelas Mulai Menjadi IoT Engineer Hebat
 <br/><br/>
 
 ## 6. Flowchart Systems Diagram
-<img src="https://user-images.githubusercontent.com/54527592/230714390-5fc20ed4-4e2c-436f-b432-52fd6aa4cc0a.jpg">
+<img src="https://user-images.githubusercontent.com/54527592/231572541-280549e4-fcae-4a69-bfc6-c6ed95f71c7d.jpg">
 <br/><br/>
 
 ## 7. Implementation
