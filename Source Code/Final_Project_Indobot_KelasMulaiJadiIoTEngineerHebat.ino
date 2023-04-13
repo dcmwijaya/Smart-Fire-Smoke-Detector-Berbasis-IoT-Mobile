@@ -19,7 +19,6 @@ AntaresESP8266MQTT antares(ACCESSKEY);
 FirebaseData fbdo; 
 FirebaseAuth auth;
 FirebaseConfig config;
-bool signupOK = false;
 
 // Sensor & Actuator
 #include <MQ2_LPG.h>
@@ -32,12 +31,11 @@ LiquidCrystal_I2C lcd(0x27,16,2);
 #define Buzzer_Pin D3
 
 // Variabel Global
-int gas_read = 0;
-int flame_read = 0;
+int gas_read; int flame_read;
 String gas_status, flame_status;
-float gasAntares;
-int flameAntares;
+int gasAntares; int flameAntares;
 unsigned long sendDataPrevMillis = 0;
+bool signupOK = false;
 
 // Koneksi WiFi-Antares dengan protokol MQTT
 void koneksiWiFiAntares(){
@@ -90,54 +88,51 @@ void bacaSensor(){
 
 // Publish Data Sensor ke Platform IoT Antares
 void sendAntares(){
-  if (millis() - sendDataPrevMillis > 5000 || sendDataPrevMillis == 0){ // Jika interval waktu ditetapkan setiap 5 detik sekali dalam mengirimkan data maka :
-    sendDataPrevMillis = millis(); // Menghitung interval pengiriman data
-    bacaSensor(); // Memanggil method bacaSensor
-    antares.add("gas", gas_read); // Menambahkan topic dengan nama "gas"
-    antares.add("flame", flame_read); // Menambahkan topic dengan nama "flame"
-    antares.publish(projectName, deviceName); // Publish data sensor ke Platform Antares
-    delay(5000); // Tunda 5 detik
-  }
+  bacaSensor(); // Memanggil method bacaSensor
+  antares.add("gas", gas_read); // Menambahkan topic dengan nama "gas"
+  antares.add("flame", flame_read); // Menambahkan topic dengan nama "flame"
+  antares.publish(projectName, deviceName); // Publish data sensor ke Platform Antares
+  delay(5000); // Tunda 5 detik
 }
 
 // Subscribe Data IoT Antares
 void callback(char topic[], byte payload[], unsigned int length) {
-  if (millis() - sendDataPrevMillis > 5000 || sendDataPrevMillis == 0){ // Jika interval waktu ditetapkan setiap 5 detik sekali dalam mengirimkan data maka :
-    sendDataPrevMillis = millis(); // Menghitung interval pengiriman data
-    antares.get(topic, payload, length); // Memanggil topic dengan payloadnya
-    gasAntares = antares.getFloat("gas"); // Memanggil topic "gas" dan disimpan ke dalam variabel gasAntares
-    flameAntares = antares.getInt("flame"); // Memanggil topic "flame" dan disimpan ke dalam variabel flameAntares
-  }
+  antares.get(topic, payload, length); // Memanggil topic dengan payloadnya
+  gasAntares = antares.getInt("gas"); // Memanggil topic "gas" dan disimpan ke dalam variabel gasAntares
+  flameAntares = antares.getInt("flame"); // Memanggil topic "flame" dan disimpan ke dalam variabel flameAntares
+  // Print subscribe data ke serial monitor
+  Serial.println("[ANTARES] SUBSCRIBE DATA:\n"); 
+  Serial.println("topic: " + antares.getTopic());
+  Serial.println("payload: " + antares.getPayload()); 
+  Serial.println("gas: " + String(gasAntares)); 
+  Serial.println("flame: " + String(flameAntares)+"\n");
 }
 
 // Pengolahan Data Sensor
 void Olah_Data(){
-  if (millis() - sendDataPrevMillis > 5000 || sendDataPrevMillis == 0){ // Jika interval waktu ditetapkan setiap 5 detik sekali dalam mengirimkan data maka :
-    sendDataPrevMillis = millis(); // Menghitung interval pengiriman data
-    // Cek Sensor Gas: LPG
-    if(gasAntares > 200){ // Jika gas LPG lebih dari 200 maka :
-      gas_status = String(gas_read)+"ppm-Danger"; Serial.println("Gas Monitoring: "+String(gas_status)+" => (Evacuate) - Alarm is ringing"); Display_LCD(" ON ", " "); // Cetak Data
-      digitalWrite(Buzzer_Pin, HIGH); // Buzzer: ON
-    } else{ // Jika gas LPG tidak lebih dari 200 maka :
-      gas_status = String(gas_read)+"ppm-Normal"; Serial.println("Gas Monitoring: "+String(gas_status)+" => (Safe) - Alarm is silent"); Display_LCD(" OFF ", " "); // Cetak Data
-      digitalWrite(Buzzer_Pin, LOW); // Buzzer: OFF
-    }
-    // Cek Sensor Api
-    if(flameAntares==1){ // Jika ada api maka :
-      flame_status = "Detected"; Serial.println("Flame Monitoring: "+String(flame_status)+" => (Evacuate) - Alarm is ringing\n"); Display_LCD(" ", " ON "); // Cetak Data
-      digitalWrite(Buzzer_Pin, HIGH); // Buzzer: ON
-    } else{ // Jika tidak ada api maka :
-      flame_status = "Not-Detected"; Serial.println("Flame Monitoring: "+String(flame_status)+" => (Safe) - Alarm is silent\n"); Display_LCD(" ", " OFF "); // Cetak Data
-      digitalWrite(Buzzer_Pin, LOW); // Buzzer: OFF
-    }
+  // Cek Sensor Gas: LPG
+  if(gasAntares > 200){ // Jika gas LPG lebih dari 200 maka :
+    gas_status = String(gasAntares)+"ppm-Danger"; Serial.println("Gas Monitoring: "+String(gas_status)+" => (Evacuate) - Alarm is ringing"); Display_LCD(" ON ", " "); // Cetak Data
+    digitalWrite(Buzzer_Pin, HIGH); // Buzzer: ON
+  } else{ // Jika gas LPG tidak lebih dari 200 maka :
+    gas_status = String(gasAntares)+"ppm-Normal"; Serial.println("Gas Monitoring: "+String(gas_status)+" => (Safe) - Alarm is silent"); Display_LCD(" OFF ", " "); // Cetak Data
+    digitalWrite(Buzzer_Pin, LOW); // Buzzer: OFF
+  }
+  // Cek Sensor Api
+  if(flameAntares == 1){ // Jika ada api maka :
+    flame_status = "Detected"; Serial.println("Flame Monitoring: "+String(flameAntares)+" ("+String(flame_status)+") => (Evacuate) - Alarm is ringing\n"); Display_LCD(" ", " ON "); // Cetak Data
+    digitalWrite(Buzzer_Pin, HIGH); // Buzzer: ON
+  } else{ // Jika tidak ada api maka :
+    flame_status = "Not-Detected"; Serial.println("Flame Monitoring: "+String(flameAntares)+" ("+String(flame_status)+") => (Safe) - Alarm is silent\n"); Display_LCD(" ", " OFF "); // Cetak Data
+    digitalWrite(Buzzer_Pin, LOW); // Buzzer: OFF
   }
 }
 
 // Cetak Data Sensor di LCD
 void Display_LCD(String BuzzerGas, String BuzzerFlame){
-    lcd.setCursor(0,0); lcd.print("G: "); lcd.print(gas_read,1); // Cetak data gas di baris 0, kolom 0
+    lcd.setCursor(0,0); lcd.print("G: "); lcd.print(gasAntares,1); // Cetak data gas di baris 0, kolom 0
     lcd.setCursor(10,0); lcd.print("B:"); lcd.print(BuzzerGas); // Cetak data buzzer di baris 10, kolom 0
-    lcd.setCursor(0,1); lcd.print("F: "); lcd.print(flame_read); // Cetak data flame di baris 0, kolom 1
+    lcd.setCursor(0,1); lcd.print("F: "); lcd.print(flameAntares); // Cetak data flame di baris 0, kolom 1
     lcd.setCursor(10,1); lcd.print("B:"); lcd.print(BuzzerFlame); // Cetak data buzzer di baris 10, kolom 1
 }
 
