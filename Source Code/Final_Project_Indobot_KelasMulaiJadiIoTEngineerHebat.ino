@@ -90,19 +90,19 @@ void bacaSensor(){
 
 // Publish Data Sensor ke Platform IoT Antares
 void sendAntares(){
-  if (millis() - sendDataPrevMillis > 5000 || sendDataPrevMillis == 0){ // Jika interval waktu ditetapkan setiap 5 detik sekali mengirim data maka :
+  if (millis() - sendDataPrevMillis > 5000 || sendDataPrevMillis == 0){ // Jika interval waktu ditetapkan setiap 5 detik sekali dalam mengirimkan data maka :
     sendDataPrevMillis = millis(); // Menghitung interval pengiriman data
     bacaSensor(); // Memanggil method bacaSensor
     antares.add("gas", gas_read); // Menambahkan topic dengan nama "gas"
     antares.add("flame", flame_read); // Menambahkan topic dengan nama "flame"
-    antares.publish(projectName, deviceName); // Publis data sensor ke Platform Antares
+    antares.publish(projectName, deviceName); // Publish data sensor ke Platform Antares
     delay(5000); // Tunda 5 detik
   }
 }
 
 // Subscribe Data IoT Antares
 void callback(char topic[], byte payload[], unsigned int length) {
-  if (millis() - sendDataPrevMillis > 5000 || sendDataPrevMillis == 0){ // Jika interval waktu ditetapkan setiap 5 detik sekali mengirim data maka :
+  if (millis() - sendDataPrevMillis > 5000 || sendDataPrevMillis == 0){ // Jika interval waktu ditetapkan setiap 5 detik sekali dalam mengirimkan data maka :
     sendDataPrevMillis = millis(); // Menghitung interval pengiriman data
     antares.get(topic, payload, length); // Memanggil topic dengan payloadnya
     gasAntares = antares.getFloat("gas"); // Memanggil topic "gas" dan disimpan ke dalam variabel gasAntares
@@ -112,7 +112,7 @@ void callback(char topic[], byte payload[], unsigned int length) {
 
 // Pengolahan Data Sensor
 void Olah_Data(){
-  if (millis() - sendDataPrevMillis > 5000 || sendDataPrevMillis == 0){ // Jika interval waktu ditetapkan setiap 5 detik sekali mengirim data maka :
+  if (millis() - sendDataPrevMillis > 5000 || sendDataPrevMillis == 0){ // Jika interval waktu ditetapkan setiap 5 detik sekali dalam mengirimkan data maka :
     sendDataPrevMillis = millis(); // Menghitung interval pengiriman data
     // Cek Sensor Gas: LPG
     if(gasAntares > 200){ // Jika gas LPG lebih dari 200 maka :
@@ -144,20 +144,20 @@ void Display_LCD(String BuzzerGas, String BuzzerFlame){
 // Kirim Data IoT ke Platform Firebase
 void sendFirebase(){
   Olah_Data(); // Memanggil method Olah_Data
-  Firebase.RTDB.setString(&fbdo, "/Detect/Gas", gas_status);
-  Firebase.RTDB.setString(&fbdo, "/Detect/Flame", flame_status);
-  if (Firebase.ready() && signupOK && (millis() - sendDataPrevMillis > 5000 || sendDataPrevMillis == 0)){ // Jika Firebase terhubung dan interval waktu ditetapkan setiap 5 detik sekali mengirim data maka :
+  Firebase.RTDB.setString(&fbdo, "/Detect/Gas", gas_status); // Mengirimkan data gas ke firebase
+  Firebase.RTDB.setString(&fbdo, "/Detect/Flame", flame_status); // Mengirimkan data flame ke firebase
+  if (Firebase.ready() && signupOK && (millis() - sendDataPrevMillis > 5000 || sendDataPrevMillis == 0)){ // Jika Firebase terhubung dan interval waktu ditetapkan setiap 5 detik sekali dalam mengirimkan data maka :
     sendDataPrevMillis = millis(); // Menghitung interval pengiriman data
-    if(Firebase.RTDB.setString(&fbdo, "/Detect/Gas", gas_status)){ // Jika terhubung ke firebase maka cetak :
+    if(Firebase.RTDB.setString(&fbdo, "/Detect/Gas", gas_status)){ // Jika berhasil mengirimkan data gas ke firebase maka cetak :
       Serial.println("PATH: " + fbdo.dataPath()); Serial.println("TYPE: " + fbdo.dataType()); Serial.println("Send data (Gas) to Firebase: successfully...");
     }
-    else { // Jika gagal terhubung ke firebase maka cetak :
+    else { // Jika gagal mengirimkan data gas ke firebase maka cetak :
       Serial.println("REASON: " + fbdo.errorReason()); Serial.println("Send data (Gas) to Firebase: failed...");
     }
-    if(Firebase.RTDB.setString(&fbdo, "/Detect/Flame", flame_status)){ // Jika terhubung ke firebase maka cetak :
+    if(Firebase.RTDB.setString(&fbdo, "/Detect/Flame", flame_status)){ // Jika berhasil mengirimkan data flame ke firebase maka cetak :
       Serial.println("\nPATH: " + fbdo.dataPath()); Serial.println("TYPE: " + fbdo.dataType()); Serial.println("Send data (Flame) to Firebase: successfully...\n");
     }
-    else { // Jika gagal terhubung ke firebase maka cetak :
+    else { // Jika gagal mengirimkan data flame ke firebase maka cetak :
       Serial.println("\nREASON: " + fbdo.errorReason()); Serial.println("Send data (Flame) to Firebase: failed...\n");
     }
   }
