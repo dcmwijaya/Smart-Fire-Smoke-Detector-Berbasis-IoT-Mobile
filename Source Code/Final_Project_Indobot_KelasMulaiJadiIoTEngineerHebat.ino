@@ -90,8 +90,8 @@ void bacaSensor(){
 
 // Publish Data Sensor ke Platform IoT Antares
 void sendAntares(){
-  if (millis() - sendDataPrevMillis > 5000 || sendDataPrevMillis == 0){ // Waktu internal dijalankan secara independen dan terus menerus setiap 5 detik sekali
-    sendDataPrevMillis = millis(); // sendDataPrevMillis dimulai dari 0 sama dengan penghitungan millis
+  if (millis() - sendDataPrevMillis > 5000 || sendDataPrevMillis == 0){ // Jika interval waktu ditetapkan setiap 5 detik sekali mengirim data maka :
+    sendDataPrevMillis = millis(); // Menghitung interval pengiriman data
     bacaSensor(); // Memanggil method bacaSensor
     antares.add("gas", gas_read); // Menambahkan topic dengan nama "gas"
     antares.add("flame", flame_read); // Menambahkan topic dengan nama "flame"
@@ -102,8 +102,8 @@ void sendAntares(){
 
 // Subscribe Data IoT Antares
 void callback(char topic[], byte payload[], unsigned int length) {
-  if (millis() - sendDataPrevMillis > 5000 || sendDataPrevMillis == 0){ // Waktu internal dijalankan secara independen dan terus menerus setiap 5 detik sekali
-    sendDataPrevMillis = millis(); // sendDataPrevMillis dimulai dari 0 sama dengan penghitungan millis
+  if (millis() - sendDataPrevMillis > 5000 || sendDataPrevMillis == 0){ // Jika interval waktu ditetapkan setiap 5 detik sekali mengirim data maka :
+    sendDataPrevMillis = millis(); // Menghitung interval pengiriman data
     antares.get(topic, payload, length); // Memanggil topic dengan payloadnya
     gasAntares = antares.getFloat("gas"); // Memanggil topic "gas" dan disimpan ke dalam variabel gasAntares
     flameAntares = antares.getInt("flame"); // Memanggil topic "flame" dan disimpan ke dalam variabel flameAntares
@@ -112,9 +112,9 @@ void callback(char topic[], byte payload[], unsigned int length) {
 
 // Pengolahan Data Sensor
 void Olah_Data(){
-  // Cek Sensor Gas: LPG
-  if (millis() - sendDataPrevMillis > 5000 || sendDataPrevMillis == 0){
-    sendDataPrevMillis = millis(); // sendDataPrevMillis dimulai dari 0 sama dengan penghitungan millis dan terus menerus setiap 5 detik sekali
+  if (millis() - sendDataPrevMillis > 5000 || sendDataPrevMillis == 0){ // Jika interval waktu ditetapkan setiap 5 detik sekali mengirim data maka :
+    sendDataPrevMillis = millis(); // Menghitung interval pengiriman data
+    // Cek Sensor Gas: LPG
     if(gasAntares > 200){ // Jika gas LPG lebih dari 200 maka :
       gas_status = String(gas_read)+"ppm-Danger"; Serial.println("Gas Monitoring: "+String(gas_status)+" => (Evacuate) - Alarm is ringing"); Display_LCD(" ON ", " "); // Cetak Data
       digitalWrite(Buzzer_Pin, HIGH); // Buzzer: ON
@@ -146,8 +146,8 @@ void sendFirebase(){
   Olah_Data(); // Memanggil method Olah_Data
   Firebase.RTDB.setString(&fbdo, "/Detect/Gas", gas_status);
   Firebase.RTDB.setString(&fbdo, "/Detect/Flame", flame_status);
-  if (Firebase.ready() && signupOK && (millis() - sendDataPrevMillis > 5000 || sendDataPrevMillis == 0)){ // Waktu internal dijalankan secara independen dan terus menerus setiap 5 detik sekali
-    sendDataPrevMillis = millis(); // sendDataPrevMillis dimulai dari 0 sama dengan penghitungan millis
+  if (Firebase.ready() && signupOK && (millis() - sendDataPrevMillis > 5000 || sendDataPrevMillis == 0)){ // Jika Firebase terhubung dan interval waktu ditetapkan setiap 5 detik sekali mengirim data maka :
+    sendDataPrevMillis = millis(); // Menghitung interval pengiriman data
     if(Firebase.RTDB.setString(&fbdo, "/Detect/Gas", gas_status)){ // Jika terhubung ke firebase maka cetak :
       Serial.println("PATH: " + fbdo.dataPath()); Serial.println("TYPE: " + fbdo.dataType()); Serial.println("Send data (Gas) to Firebase: successfully...");
     }
