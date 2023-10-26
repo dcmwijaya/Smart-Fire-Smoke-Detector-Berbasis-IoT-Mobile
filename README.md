@@ -16,6 +16,8 @@ This project is closely related to smart home technology, where this tool is use
 | Media | Description |
 | --- | --- |
 | Platform | Antares & MIT App Inventor |
+| IoT Protocol | MQTT |
+| Architecture | 4 Layer |
 | Board Development | Wemos D1 R2 |
 | Code Editor | Arduino IDE |
 | Arduino Library | ESP8266WiFi, AntaresESP8266MQTT, Firebase_ESP_Client, addons/TokenHelper, addons/RTDBHelper, MQ2_LPG, Wire, & LiquidCrystal_I2C  |
