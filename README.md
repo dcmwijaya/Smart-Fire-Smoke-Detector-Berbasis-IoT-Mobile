@@ -80,6 +80,17 @@ http://arduino.esp8266.com/stable/package_esp8266com_index.json
 <img src="https://user-images.githubusercontent.com/54527592/231572541-280549e4-fcae-4a69-bfc6-c6ed95f71c7d.jpg">
 <br/><br/>
 
+## Running
+1. Download this Repository.
+2. Make sure you have the necessary electronic components.
+3. Make sure your components have been designed according to the diagram.
+4. Make sure the components are well connected (Adjust Board and Port settings).
+5. It is recommended to create a Broker account along with this service.
+6. Make sure to change the arduino program code in the "Router" section according to the device you are using.
+7. If you do not apply points 2 and 3 for the purposes of project development, it is fine, but please note that some things need to be changed in order to function properly.
+8. Done, good luck.
+<br/><br/>
+
 ## Implementation
 <table border="0">
   <img src="https://user-images.githubusercontent.com/54527592/230714068-daaa11fd-2d23-4870-95c4-b946df4f036b.JPG" style="width:1920px;">
