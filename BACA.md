@@ -62,7 +62,7 @@ http://arduino.esp8266.com/stable/package_esp8266com_index.json
 <img src="https://user-images.githubusercontent.com/54527592/230712347-46f2d325-6f03-488e-8b79-b0f987550dee.jpg">
 <br/><br/>
 
-## Diagram Pictogram
+## Diagram Piktorial
 <img src="https://user-images.githubusercontent.com/54527592/230712584-0eeead02-6707-4474-a973-2b69ad8521e0.jpg">
 <br/><br/>
 
