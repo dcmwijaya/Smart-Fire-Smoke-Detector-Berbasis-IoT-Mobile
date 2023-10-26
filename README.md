@@ -18,12 +18,41 @@ This project is closely related to smart home technology, where this tool is use
 | Platform | Antares & MIT App Inventor |
 | Board Development | Wemos D1 R2 |
 | Code Editor | Arduino IDE |
-| Arduino Library | ESP8266WiFi, AntaresESP8266MQTT, Firebase_ESP_Client, addons/TokenHelper, addons/RTDBHelper, MQ2_LPG, Wire, LiquidCrystal_I2C,  |
+| Arduino Library | ESP8266WiFi, AntaresESP8266MQTT, Firebase_ESP_Client, addons/TokenHelper, addons/RTDBHelper, MQ2_LPG, Wire, & LiquidCrystal_I2C  |
 | Database |  Firebase |
 | Actuators | Piezo buzzer |
 | Sensor | Fire Sensor (KY-26) & Gas Sensor (MQ-2) |
 | Display | LCD I2C |
 | Other Components | Jumper cable & Breadboard  |
+
+<br><br>
+
+
+## Download & Install
+Download Arduino IDE :
+```bash
+https://www.arduino.cc/en/software
+```
+
+<br><br>
+
+## Settings
+1. Open the Arduino IDE first, then enter the Boards Manager Url by copying the following link:
+```bash
+http://arduino.esp8266.com/stable/package_esp8266com_index.json
+```
+2. Board Setup in Arduino IDE
+   <ul>
+      <li>Method: click Boards Manager -> ESP8266 Boards -> LOLIN(WEMOS) D1 R2 & Mini.</li>
+   </ul>
+3. Port Setup in Arduino IDE
+   <ul>
+      <li>Method: click Port -> Choose according to your device port (you can see in device manager).</li>
+   </ul>
+4. Install Library in Arduino IDE
+   <ul>
+      <li>Method: click Tools -> Manage Libraries -> Install Library according to project needs.</li>
+   </ul>
 
 <br><br>
 
