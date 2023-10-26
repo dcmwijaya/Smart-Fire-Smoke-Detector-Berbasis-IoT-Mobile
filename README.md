@@ -25,7 +25,7 @@ This project is closely related to smart home technology, where this tool is use
 | Display | LCD I2C |
 | Other Components | Jumper cable & Breadboard  |
 
-<br>
+<br><br>
 
 ## Wiring Device: Schematic Diagram
 <img src="https://user-images.githubusercontent.com/54527592/230712347-46f2d325-6f03-488e-8b79-b0f987550dee.jpg">
