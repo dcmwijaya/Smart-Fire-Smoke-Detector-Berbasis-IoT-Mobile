@@ -58,11 +58,11 @@ http://arduino.esp8266.com/stable/package_esp8266com_index.json
 
 <br><br>
 
-## Wiring Device: Schematic Diagram
+## Schematic Diagram
 <img src="https://user-images.githubusercontent.com/54527592/230712347-46f2d325-6f03-488e-8b79-b0f987550dee.jpg">
 <br/><br/>
 
-## Wiring Device: Pictogram Diagram
+## Pictogram Diagram
 <img src="https://user-images.githubusercontent.com/54527592/230712584-0eeead02-6707-4474-a973-2b69ad8521e0.jpg">
 <br/><br/>
 
@@ -78,7 +78,7 @@ http://arduino.esp8266.com/stable/package_esp8266com_index.json
 <img src="https://user-images.githubusercontent.com/54527592/230714098-e75e4eb4-e150-4660-a591-94e8451a21f4.jpg">
 <br/><br/>
 
-## Flowchart Systems Diagram
+## Systems Diagram
 <img src="https://user-images.githubusercontent.com/54527592/231572541-280549e4-fcae-4a69-bfc6-c6ed95f71c7d.jpg">
 <br/><br/>
 
