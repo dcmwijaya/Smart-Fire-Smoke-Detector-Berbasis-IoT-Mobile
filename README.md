@@ -7,7 +7,7 @@
 ![Arduino](https://img.shields.io/badge/Tools-Arduino%20IDE-light.svg?style=flat&logo=arduino&logoColor=white&color=bcbcbc)
 
 # Smart-Fire-Smoke-Detector-Berbasis-IoT-Mobile
-Indobot Academy Final Project: The Starting Class to Become a Great IoT Engineer Batch 1
+<strong>Indobot Academy Final Project: The Starting Class to Become a Great IoT Engineer Batch 1</strong><br/>
 This project is closely related to smart home technology, where this tool is used in real time to make it easier for users to measure the extent of fire potential in the surrounding room. Existing sensors can operate when affected by light and gas intensity. This tool has been simulated on a mobile basis using the MIT App Inventor platform.
 
 <br/><br/>
