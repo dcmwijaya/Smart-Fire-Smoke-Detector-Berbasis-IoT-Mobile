@@ -91,7 +91,7 @@ http://arduino.esp8266.com/stable/package_esp8266com_index.json
 6. Pastikan untuk mengubah kode program arduino di bagian "Router" sesuai dengan perangkat yang Anda gunakan.
 7. Jika Anda tidak menerapkan poin 2 dan 3 untuk keperluan pengembangan proyek itu tidak masalah, tetapi harap dicatat bahwa beberapa hal perlu diubah agar dapat berfungsi dengan baik.
 8. Selesai, semoga berhasil.
-<br/><br/>
+<br/><br/><br/>
 
 ## Implementasi
 <table border="0">
