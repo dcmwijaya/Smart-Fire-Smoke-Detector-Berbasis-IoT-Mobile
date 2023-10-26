@@ -12,6 +12,21 @@ This project is closely related to smart home technology, where this tool is use
 
 <br/><br/>
 
+## Features / Framework / Tools
+| Media | Description |
+| --- | --- |
+| Platform | Antares & MIT App Inventor |
+| Board Development | Wemos D1 R2 |
+| Code Editor | Arduino IDE |
+| Arduino Library | ESP8266WiFi, AntaresESP8266MQTT, Firebase_ESP_Client, addons/TokenHelper, addons/RTDBHelper, MQ2_LPG, Wire, LiquidCrystal_I2C,  |
+| Database |  Firebase |
+| Actuators | Piezo buzzer |
+| Sensor | Fire Sensor (KY-26) & Gas Sensor (MQ-2) |
+| Display | LCD I2C |
+| Other Components | Jumper cable & Breadboard  |
+
+<br>
+
 ## Wiring Device: Schematic Diagram
 <img src="https://user-images.githubusercontent.com/54527592/230712347-46f2d325-6f03-488e-8b79-b0f987550dee.jpg">
 <br/><br/>
