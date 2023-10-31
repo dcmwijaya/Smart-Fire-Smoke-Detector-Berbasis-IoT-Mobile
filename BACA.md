@@ -58,7 +58,7 @@ http://arduino.esp8266.com/stable/package_esp8266com_index.json
 
 <br><br>
 
-## Project Requirements
+## Persyaratan Proyek
 <table>
 <tr>
 <th width="280">Diagram Skematik</th>
