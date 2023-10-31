@@ -96,7 +96,7 @@ http://arduino.esp8266.com/stable/package_esp8266com_index.json
 8. Done, good luck.
 <br/><br/><br/>
 
-## Implementation
+## Highlights
 <table>
 <tr>
 <th width="280">MIT App Inventor</th>
