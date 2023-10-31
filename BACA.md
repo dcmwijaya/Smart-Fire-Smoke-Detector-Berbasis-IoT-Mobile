@@ -96,7 +96,7 @@ http://arduino.esp8266.com/stable/package_esp8266com_index.json
 8. Selesai, semoga berhasil.
 <br/><br/><br/>
 
-## Implementasi
+## Sorotan
 <table>
 <tr>
 <th width="280">MIT App Inventor</th>
