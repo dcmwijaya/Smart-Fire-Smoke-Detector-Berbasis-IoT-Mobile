@@ -10,7 +10,7 @@
 <strong>Indobot Academy Final Project: The Starting Class to Become a Great IoT Engineer Batch 1</strong><br/>
 This project is closely related to smart home technology, where this tool is used in real time to make it easier for users to measure the extent of fire potential in the surrounding room. Existing sensors can operate when affected by light and gas intensity. This tool has been simulated on a mobile basis using the MIT App Inventor platform.
 
-<br/><br/>
+<br><br>
 
 ## Features / Framework / Tools
 | Media | Description |
@@ -29,9 +29,7 @@ This project is closely related to smart home technology, where this tool is use
 
 <br><br>
 
-
-## Download & Install
-Download Arduino IDE :
+## Download & Install Arduino IDE
 ```bash
 https://www.arduino.cc/en/software
 ```
@@ -40,17 +38,21 @@ https://www.arduino.cc/en/software
 
 ## Settings
 1. Open the Arduino IDE first, then enter the Boards Manager Url by copying the following link:
-```bash
-http://arduino.esp8266.com/stable/package_esp8266com_index.json
-```
+   ```bash
+   http://arduino.esp8266.com/stable/package_esp8266com_index.json
+   ```
+<br>
+
 2. Board Setup in Arduino IDE
    <ul>
       <li>Method: click Boards Manager -> ESP8266 Boards -> LOLIN(WEMOS) D1 R2 & Mini.</li>
    </ul>
+   <br>
 3. Port Setup in Arduino IDE
    <ul>
       <li>Method: click Port -> Choose according to your device port (you can see in device manager).</li>
    </ul>
+   <br>
 4. Install Library in Arduino IDE
    <ul>
       <li>Method: click Tools -> Manage Libraries -> Install Library according to project needs.</li>
@@ -83,18 +85,27 @@ http://arduino.esp8266.com/stable/package_esp8266com_index.json
 <td><img src="https://user-images.githubusercontent.com/54527592/231572541-280549e4-fcae-4a69-bfc6-c6ed95f71c7d.jpg" alt="Systems-Diagram"></td>
 </tr>
 </table>
-<br/><br/>
 
-## Running
+<br><br>
+
+## Get Started
 1. Download this Repository.
+   
 2. Make sure you have the necessary electronic components.
+   
 3. Make sure your components have been designed according to the diagram.
-4. Make sure the components are well connected (Adjust Board and Port settings).
-5. It is recommended to create a Broker account along with this service.
-6. Make sure to change the arduino program code in the "Router" section according to the device you are using.
+   
+4. Make sure the components are well connected ``` (Adjust Board and Port settings) ```.
+   
+5. It is recommended to ``` create a IoT Platform account ``` along with this service.
+    
+6. Make sure to change the arduino program code in the ``` Router ``` section according to the device you are using.
+    
 7. If you do not apply points 2 and 3 for the purposes of project development, it is fine, but please note that some things need to be changed in order to function properly.
+    
 8. Done, good luck.
-<br/><br/><br/>
+
+<br><br>
 
 ## Highlights
 <table>
@@ -119,7 +130,12 @@ http://arduino.esp8266.com/stable/package_esp8266com_index.json
 </tr>
 </table>
 
-<br/><br/>
+<br><br>
+
+## Disclaimer
+This application has been created by including third-party sources. Third parties here are service providers, whose services are in the form of libraries, frameworks, and others. I thank you very much for the service. It has proven to be very helpful and implementable.
+
+<br><br>
 
 ## LICENSE
 MIT License - Copyright (c) 2022 - Devan C. M. Wijaya, S.Kom
