@@ -90,21 +90,25 @@ https://www.arduino.cc/en/software
 <br><br>
 
 ## Get Started
-1. Download this Repository.
+1. Make sure you have the necessary electronic components.
    
-2. Make sure you have the necessary electronic components.
+2. Make sure your components are designed according to the diagram.
    
-3. Make sure your components have been designed according to the diagram.
+3. Make sure the components are well connected ``` (Adjust Board and Port settings) ```.
    
-4. Make sure the components are well connected ``` (Adjust Board and Port settings) ```.
-   
-5. It is recommended to ``` create a IoT Platform account ``` along with this service.
+4. It is recommended to ``` create an IoT Platform account ``` at the same time as the service.
     
-6. Make sure to change the arduino program code in the ``` Router ``` section according to the device you are using.
+5. Be sure to change the arduino program code in the ``` Router ``` section according to the device you are using.
     
-7. If you do not apply points 2 and 3 for the purposes of project development, it is fine, but please note that some things need to be changed in order to function properly.
-    
-8. Done, good luck.
+6. If you don't apply points 1 and 2 for the purposes of project development that's fine, but please note that some things need to be changed for it to work properly.
+
+7. Ensure that the device is connected to the internet.
+  
+8. Make sure all things have been created.
+
+9. Download and extract this repository.
+   
+10. Please enjoy [Done].
 
 <br><br>
 
