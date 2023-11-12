@@ -10,7 +10,7 @@
 <strong>Tugas Akhir Indobot Academy: Kelas Awal untuk Menjadi Insinyur IoT yang Hebat Batch 1</strong><br/>
 Proyek ini sangat erat kaitannya dengan teknologi smart home, dimana alat ini digunakan secara real time untuk memudahkan pengguna dalam mengukur sejauh mana potensi kebakaran di ruangan sekitarnya. Sensor yang ada dapat beroperasi ketika terpengaruh oleh intensitas cahaya dan gas. Alat ini telah disimulasikan secara mobile dengan menggunakan platform MIT App Inventor.
 
-<br/><br/>
+<br><br>
 
 ## Fitur / Kerangka Kerja / Peralatan
 | Media | Deskripsi |
@@ -29,9 +29,7 @@ Proyek ini sangat erat kaitannya dengan teknologi smart home, dimana alat ini di
 
 <br><br>
 
-
-## Unduh & Instal
-Unduh Arduino IDE :
+## Unduh & Instal Arduino IDE
 ```bash
 https://www.arduino.cc/en/software
 ```
@@ -40,17 +38,22 @@ https://www.arduino.cc/en/software
 
 ## Pengaturan
 1. Buka Arduino IDE terlebih dahulu, kemudian masukkan Url Boards Manager dengan cara menyalin tautan berikut:
-```bash
-http://arduino.esp8266.com/stable/package_esp8266com_index.json
-```
+   
+   ```bash
+   http://arduino.esp8266.com/stable/package_esp8266com_index.json
+   ```
+<br>
+
 2. Pengaturan Board di Arduino IDE
    <ul>
       <li>Cara: klik Boards Manager -> ESP8266 Boards -> LOLIN(WEMOS) D1 R2 & Mini.</li>
    </ul>
+   <br>
 3. Pengaturan Port di Arduino IDE
    <ul>
       <li>Cara: klik Port -> Pilih sesuai dengan port perangkat Anda (Anda dapat melihatnya di Device Manager).</li>
    </ul>
+   <br>
 4. Instal pustaka di Arduino IDE
    <ul>
       <li>Cara: klik Tools -> Manage Libraries -> Instal Pustaka sesuai dengan kebutuhan proyek.</li>
@@ -83,18 +86,27 @@ http://arduino.esp8266.com/stable/package_esp8266com_index.json
 <td><img src="https://user-images.githubusercontent.com/54527592/231572541-280549e4-fcae-4a69-bfc6-c6ed95f71c7d.jpg" alt="Systems-Diagram"></td>
 </tr>
 </table>
-<br/><br/>
 
-## Menjalankan
+<br><br>
+
+## Memulai
 1. Unduh Repositori ini.
+   
 2. Pastikan Anda memiliki komponen elektronik yang diperlukan.
+   
 3. Pastikan komponen Anda telah dirancang sesuai dengan diagram.
-4. Pastikan komponen terhubung dengan baik (Sesuaikan pengaturan Board dan Port).
-5. Disarankan untuk membuat akun Broker sekaligus dengan layanannya.
-6. Pastikan untuk mengubah kode program arduino di bagian "Router" sesuai dengan perangkat yang Anda gunakan.
+   
+4. Pastikan komponen terhubung dengan baik ``` (Sesuaikan pengaturan Board dan Port) ```.
+   
+5. Disarankan untuk ``` membuat akun Platform IoT ``` sekaligus dengan layanannya.
+    
+6. Pastikan untuk mengubah kode program arduino di bagian ``` Router ``` sesuai dengan perangkat yang Anda gunakan.
+    
 7. Jika Anda tidak menerapkan poin 2 dan 3 untuk keperluan pengembangan proyek itu tidak masalah, tetapi harap dicatat bahwa beberapa hal perlu diubah agar dapat berfungsi dengan baik.
+    
 8. Selesai, semoga berhasil.
-<br/><br/><br/>
+
+<br><br>
 
 ## Sorotan
 <table>
@@ -119,7 +131,12 @@ http://arduino.esp8266.com/stable/package_esp8266com_index.json
 </tr>
 </table>
 
-<br/><br/>
+<br><br>
+
+## Penafian
+Aplikasi ini dibuat dengan menyertakan sumber-sumber dari pihak ketiga. Pihak ketiga di sini adalah penyedia layanan, yang layanannya berupa pustaka, kerangka kerja, dan lain-lain. Saya ucapkan terima kasih banyak atas layanannya. Telah terbukti sangat membantu dan dapat diimplementasikan.
+
+<br><br>
 
 ## LISENSI
 LISENSI MIT - Hak Cipta (c) 2022 - Devan C. M. Wijaya, S.Kom
