@@ -1,5 +1,5 @@
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?style=flat)](https://github.com/ellerbrock/open-source-badges/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?logo=github&color=%23F7DF1E)](https://opensource.org/licenses/MIT)
 ![GitHub last commit](https://img.shields.io/github/last-commit/devancakra/Smart-Fire-Smoke-Detector-Berbasis-IoT-Mobile)
 ![Project](https://img.shields.io/badge/Project-Mobile%20of%20Things-light.svg?style=flat&logo=github&logoColor=white&color=bcbcbc)
 ![MobileApps](https://img.shields.io/badge/Mobile%20Apps-MIT-%2DApp-%2DInventor-light.svg?style=flat&logo=android&logoColor=white&color=bcbcbc)
