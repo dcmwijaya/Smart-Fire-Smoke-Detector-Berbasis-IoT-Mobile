@@ -78,11 +78,10 @@ This project is closely related to smart home technology, where this tool is use
 2. Fill in the ``` Additional Board Manager URLs ``` in Arduino IDE<br><br>
    • Method: click ``` File ``` -> ``` Preferences ``` -> enter the ``` Boards Manager Url ``` by copying the following link:
    
-   ```bash
+   ```
    http://arduino.esp8266.com/stable/package_esp8266com_index.json
    ```
-   <br>
-
+   
 3. ``` Board Setup ``` in Arduino IDE<br><br>
    • Method: click ``` Tools ``` -> ``` Board ``` -> ``` Boards Manager ``` -> Install ``` esp8266 ```. Then selecting a Board by clicking: ``` Tools ``` -> ``` Board ``` -> ``` ESP8266 Board ``` -> ``` LOLIN(WEMOS) D1 R2 & mini ```.<br><br>
    
