@@ -103,7 +103,13 @@ Proyek ini sangat erat kaitannya dengan teknologi smart home, dimana alat ini di
 <br><br>
 
 ## Antares Setup
-Dalam proses penulisan.....
+1. Memulai Antares :<br><br>
+   • Buka situs resmi Antares berikut: <a href="https://antares.id/">antares.id</a>.
+
+   • <a href="https://beta-console.antares.id/id/signup">Registrasi</a> -> Lalu <a href="https://beta-console.antares.id/id">Masuk</a>.
+
+   
+   
 
 <br><br>
 
