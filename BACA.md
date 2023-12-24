@@ -120,7 +120,7 @@ Proyek ini sangat erat kaitannya dengan teknologi smart home, dimana alat ini di
 
 4. Kemudian klik ``` Connect ``` -> selanjutnya pilih ``` AI Companion ```.<br><br>
 
-5. Buka smartphone anda, lalu pada google playstore cari aplikasi ``` MIT AI2 Companion ```, kemudian lakukan instalasi.<br><br>
+5. Buka smartphone anda, lalu pada ``` Google Play Store ``` cari aplikasi ``` MIT AI2 Companion ```, kemudian lakukan instalasi.<br><br>
 
 6. Buka aplikasi ``` MIT AI2 Companion ```.<br><br>
 
