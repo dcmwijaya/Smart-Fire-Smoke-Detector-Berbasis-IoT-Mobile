@@ -108,7 +108,7 @@ Proyek ini sangat erat kaitannya dengan teknologi smart home, dimana alat ini di
 
    • Selanjutnya silakan <a href="https://beta-console.antares.id/id">Masuk</a> agar dapat mengakses layanan.<br><br>
    
-3. Membuat Applications :<br><br>
+3. Membuat applications :<br><br>
    • Masuk ke menu ``` Applications ```.
 
    • Klik ``` + Create an Application ```.
@@ -118,7 +118,7 @@ Proyek ini sangat erat kaitannya dengan teknologi smart home, dimana alat ini di
       - ``` Application ID ``` -> ``` ID Aplikasi yang akan Anda buat ```.
       - ``` Labels ``` -> tentukan sesuai dengan kebutuhan proyek.<br><br>
    
-4. Membuat Device :<br><br>
+4. Membuat device :<br><br>
    • Pastikan anda berada di menu ``` Home / Applications / Aplikasi yang Anda buat ```.
 
    • Klik ``` + Add Device ```.
