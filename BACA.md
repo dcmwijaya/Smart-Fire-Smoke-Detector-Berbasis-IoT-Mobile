@@ -106,9 +106,39 @@ Proyek ini sangat erat kaitannya dengan teknologi smart home, dimana alat ini di
 1. Memulai Antares :<br><br>
    • Buka situs resmi Antares berikut: <a href="https://antares.id/">antares.id</a>.
 
-   • <a href="https://beta-console.antares.id/id/signup">Registrasi</a> -> Lalu <a href="https://beta-console.antares.id/id">Masuk</a>.
-
+   • <a href="https://beta-console.antares.id/id/signup">Registrasi</a> -> lalu <a href="https://beta-console.antares.id/id">Masuk</a>.<br><br>
    
+2. Membuat Applications :<br><br>
+   • Masuk ke menu ``` Applications ```.
+
+   • Klik ``` + Create an Application ```.
+
+   • Dalam menu ``` Add Application ``` isilah seperti ini:
+      - ``` Application Name ``` -> ``` Final_Project_Indobot_Academy_2023 ```.
+      - ``` Application ID ``` -> ``` final_project ```.
+      - ``` Labels ``` -> ``` location ``` -> ``` jawa timur ```.<br><br>
+   
+3. Membuat Device :<br><br>
+   • Pastikan anda berada di menu ``` Applications ``` -> ``` Final_Project_Indobot_Academy_2023 ```.
+
+   • Klik ``` + Add Device ```.
+
+   • Kemudian beri nama ``` Smart_Fire_Smoke_Detector ```.<br><br>
+   
+4. Konfigurasi firmware :<br><br>
+   • Pastikan anda berada di menu ``` Account ```.
+
+   • Salin ``` Access Key ``` tersebut.
+
+   • Tempelkan pada kode firmware, contohnya seperti ini :
+
+   ```
+   #define ACCESSKEY "1444e88d02acb708:b996112b1c2f8f0f"
+   #define projectName "Final_Project_Indobot_Academy_2023"
+   #define deviceName "Smart_Fire_Smoke_Detector"
+   ```
+
+   • Jika gagal terkoneksi ke Antares, maka perkiraan masalahnya ada di bagian software / firmware / hardware. Silakan periksa lagi.
    
 
 <br><br>
