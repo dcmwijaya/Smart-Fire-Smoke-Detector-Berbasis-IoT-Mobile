@@ -145,7 +145,6 @@ Proyek ini sangat erat kaitannya dengan teknologi smart home, dimana alat ini di
 
    • Jika gagal terkoneksi ke Antares, maka perkiraan masalahnya ada di bagian software / firmware / hardware. Silakan periksa lagi.
    
-
 <br><br>
 
 ## Pengaturan Firebase
