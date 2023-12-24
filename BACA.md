@@ -104,28 +104,28 @@ Proyek ini sangat erat kaitannya dengan teknologi smart home, dimana alat ini di
 
 ## Antares Setup
 1. Memulai Antares :<br><br>
-   • Buka situs resmi Antares berikut: <a href="https://antares.id/">antares.id</a>.
+   • Silakan <a href="https://beta-console.antares.id/id/signup">Registrasi</a> terlebih dahulu.
 
-   • <a href="https://beta-console.antares.id/id/signup">Registrasi</a> -> lalu <a href="https://beta-console.antares.id/id">Masuk</a>.<br><br>
+   • Selanjutnya silakan <a href="https://beta-console.antares.id/id">Masuk</a> agar dapat mengakses layanan.<br><br>
    
-2. Membuat Applications :<br><br>
+3. Membuat Applications :<br><br>
    • Masuk ke menu ``` Applications ```.
 
    • Klik ``` + Create an Application ```.
 
    • Dalam menu ``` Add Application ``` isilah seperti ini:
-      - ``` Application Name ``` -> ``` Final_Project_Indobot_Academy_2023 ```.
-      - ``` Application ID ``` -> ``` final_project ```.
-      - ``` Labels ``` -> ``` location ``` -> ``` jawa timur ```.<br><br>
+      - ``` Application Name ``` -> ``` Aplikasi yang Anda buat ```.
+      - ``` Application ID ``` -> ``` ID Aplikasi yang Anda buat ```.
+      - ``` Labels ``` -> tentukan sesuai dengan kebutuhan proyek.<br><br>
    
-3. Membuat Device :<br><br>
-   • Pastikan anda berada di menu ``` Applications ``` -> ``` Final_Project_Indobot_Academy_2023 ```.
+4. Membuat Device :<br><br>
+   • Pastikan anda berada di menu ``` Applications ``` -> ``` Aplikasi yang Anda buat ```.
 
    • Klik ``` + Add Device ```.
 
-   • Kemudian beri nama ``` Smart_Fire_Smoke_Detector ```.<br><br>
+   • Kemudian beri nama device anda secara bebas.<br><br>
    
-4. Konfigurasi firmware :<br><br>
+5. Konfigurasi firmware :<br><br>
    • Pastikan anda berada di menu ``` Account ```.
 
    • Salin ``` Access Key ``` tersebut.
@@ -136,7 +136,7 @@ Proyek ini sangat erat kaitannya dengan teknologi smart home, dimana alat ini di
    #define ACCESSKEY "1444e88d02acb758:b996115b1c2f6f0f"
    ```
 
-   • ``` Nama proyek ``` dan ``` nama device ``` pada kode firmware itu harus sesuai seperti yang dibuat tadi. Berikut merupakan contohnya :
+   • ``` Nama proyek ``` dan ``` nama device ``` pada kode firmware itu harus sesuai seperti yang telah dibuat tadi. Berikut merupakan contohnya :
    
    ```
    #define projectName "Final_Project_Indobot_Academy_2023"
