@@ -17,7 +17,7 @@ This project is closely related to smart home technology, where this tool is use
 | Driver | USB-Serial CH340 |
 | IoT Platform | Antares |
 | IoT Protocol | MQTT |
-| Architecture | 4 Layer |
+| IoT Architecture | 4 Layer |
 | Mobile App Platform | MIT App Inventor |
 | Database |  Firebase |
 | Arduino Library | ESP8266WiFi, AntaresESP8266MQTT, Firebase_ESP_Client, addons/TokenHelper, addons/RTDBHelper, MQ2_LPG, Wire, & LiquidCrystal_I2C  |
