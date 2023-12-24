@@ -110,19 +110,13 @@ This project is closely related to smart home technology, where this tool is use
    
 3. Make sure your components are designed according to the diagram.
    
-4. Make sure the components are well connected ``` (Adjust Board and Port settings) ```.
-   
-5. Create an account for the IoT Platform and its services.
+4. Create an account for the IoT Platform and its services.
     
-6. Be sure to change the arduino program code in the ``` Router ``` section according to the device you are using.
-    
-7. If you don't apply points 1 and 2 for the purposes of project development that's fine, but please note that some things need to be changed for it to work properly.
+5. If you don't apply points 2 and 3 for project development purposes, that's fine, but be aware that some things need to be changed according to your needs for the system to work properly.
 
-8. Ensure that the device is connected to the internet.
-  
-9. Make sure all things have been created.
+6. Make sure all things have been created.
 
-10. Please enjoy [Done].
+7. Please enjoy [Done].
 
 <br><br>
 
