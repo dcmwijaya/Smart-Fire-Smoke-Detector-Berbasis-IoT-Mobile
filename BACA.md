@@ -133,7 +133,7 @@ Proyek ini sangat erat kaitannya dengan teknologi smart home, dimana alat ini di
    • Tempelkan pada kode firmware, contohnya seperti ini :
 
    ```
-   #define ACCESSKEY "1444e88d02acb708:b996112b1c2f8f0f"
+   #define ACCESSKEY "1444e88d02acb758:b996115b1c2f6f0f"
    #define projectName "Final_Project_Indobot_Academy_2023"
    #define deviceName "Smart_Fire_Smoke_Detector"
    ```
