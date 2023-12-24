@@ -102,6 +102,24 @@ Proyek ini sangat erat kaitannya dengan teknologi smart home, dimana alat ini di
 
 <br><br>
 
+## Pengaturan Firebase
+1. Dalam proses....
+
+<br><br>
+
+## Pengaturan MIT App Inventor
+1. Buka situs: ``` https://appinventor.mit.edu/ ```, lalu klik ``` Create Apps! ```, kemudian masuk ke platform tersebut dengan akun google.<br><br>
+
+2. Klik ``` Project ``` -> silakan impor proyek berikut: ``` Smart_Fire_Smoke_Detector.aia ``` pada direktori ``` Smart-Fire-Smoke-Detector-Berbasis-IoT-Mobile\Src\MIT App Inventor Project\ ```.<br><br>
+
+3. Kemudian klik ``` Connect ``` -> selanjutnya pilih ``` AI Companion ```.<br><br>
+
+4. Buka smartphone anda, lalu pada google playstore cari aplikasi berikut: ``` MIT AI2 Companion ```, kemudian lakukan instalasi.<br><br>
+
+5. Buka aplikasi ``` MIT AI2 Companion ```, lalu pilih metode ``` Scan QR Code ``` dan arahkan ke ``` QR Code ``` yang ada di ``` MIT App Inventor ```.
+
+<br><br>
+
 ## Memulai
 1. Unduh dan ekstrak repositori ini.<br><br>
    
