@@ -17,7 +17,7 @@ Proyek ini sangat erat kaitannya dengan teknologi smart home, dimana alat ini di
 | Driver | USB-Serial CH340 |
 | Platform IoT | Antares |
 | Protokol IoT | MQTT |
-| Arsitektur | 4 Layer |
+| Arsitektur | 4 Lapisan |
 | Platform Aplikasi Seluler | MIT App Inventor |
 | Basis Data |  Firebase |
 | Pustaka Arduino | ESP8266WiFi, AntaresESP8266MQTT, Firebase_ESP_Client, addons/TokenHelper, addons/RTDBHelper, MQ2_LPG, Wire, & LiquidCrystal_I2C  |
