@@ -44,25 +44,6 @@ This project is closely related to smart home technology, where this tool is use
    
 <br><br>
 
-## Settings
-1. Open the ``` Arduino IDE ``` first, then enter the ``` Boards Manager Url ``` by copying the following link:
-   
-   ```bash
-   http://arduino.esp8266.com/stable/package_esp8266com_index.json
-   ```
-<br>
-
-2. ``` Board Setup ``` in Arduino IDE<br><br>
-   • Method: click ``` Boards Manager ``` -> ``` ESP8266 Boards ``` -> ``` LOLIN(WEMOS) D1 R2 & Mini ```.
-   <br><br><br>
-3. ``` Port Setup ``` in Arduino IDE<br><br>
-   • Method: click ``` Port ``` -> Choose according to your device port ``` (you can see in device manager) ```.
-   <br><br><br>
-4. ``` Install Library ``` in Arduino IDE<br><br>
-   • Method: click ``` Tools ``` -> ``` Manage Libraries ``` -> ``` Install Library ``` according to project needs.
-
-<br><br>
-
 ## Project Requirements
 <table>
 <tr>
@@ -88,6 +69,36 @@ This project is closely related to smart home technology, where this tool is use
 <td><img src="https://user-images.githubusercontent.com/54527592/231572541-280549e4-fcae-4a69-bfc6-c6ed95f71c7d.jpg" alt="Systems-Diagram"></td>
 </tr>
 </table>
+
+<br><br>
+
+## Arduino IDE Setup
+1. Open the ``` Arduino IDE ``` first, then open the project by clicking: ``` File ``` -> ``` Open ``` -> ``` Final_Project_Indobot_KelasMulaiJadiIoTEngineerHebat.ino ```.
+   
+2. Fill in the ``` Additional Board Manager URLs ``` in Arduino IDE<br><br>
+   • Method: click ``` File ``` -> ``` Preferences ``` -> enter the ``` Boards Manager Url ``` by copying the following link:
+   
+   ```bash
+   http://arduino.esp8266.com/stable/package_esp8266com_index.json
+   ```
+
+3. ``` Board Setup ``` in Arduino IDE<br><br>
+   • Method: click ``` Tools ``` -> ``` Board ``` -> ``` Boards Manager ``` -> Install ``` esp8266 ```. Then selecting a Board by clicking: ``` Tools ``` -> ``` Board ``` -> ``` ESP8266 Board ``` -> ``` LOLIN(WEMOS) D1 R2 & mini ```.<br><br>
+   
+4. ``` Change the Board Speed ``` in Arduino IDE<br><br>
+   • Method: click ``` Tools ``` -> ``` Upload Speed ``` -> ``` 115200 ```.<br><br>
+   
+5. ``` Install Library ``` in Arduino IDE<br><br>
+   • Method: download all the library zip files. Then paste it in the: ``` C:\Users\Computer_Username\Documents\Arduino\libraries ```.<br><br>
+
+6. ``` Port Setup ``` in Arduino IDE<br><br>
+   • Method: click ``` Port ``` -> Choose according to your device port ``` (you can see in device manager) ```.<br><br>
+
+7. Change the ``` WiFi Name ```, ``` WiFi Password ```, and so on according to what you are currently using.<br><br>
+
+8. Before uploading the program please click: ``` Verify ```.<br><br>
+
+9. If there is no error in the program code, then please click: ``` Upload ```.
 
 <br><br>
 
