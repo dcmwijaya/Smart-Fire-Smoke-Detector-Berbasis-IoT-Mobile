@@ -53,7 +53,7 @@ This project is closely related to smart home technology, where this tool is use
 <br>
 
 2. ``` Board Setup ``` in Arduino IDE<br><br>
-   Method: click ``` Boards Manager ``` -> ``` ESP8266 Boards ``` -> ``` LOLIN(WEMOS) D1 R2 & Mini ```.
+   • Method: click ``` Boards Manager ``` -> ``` ESP8266 Boards ``` -> ``` LOLIN(WEMOS) D1 R2 & Mini ```.
    <br><br><br>
 3. ``` Port Setup ``` in Arduino IDE<br><br>
    • Method: click ``` Port ``` -> Choose according to your device port ``` (you can see in device manager) ```.
