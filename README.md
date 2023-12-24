@@ -102,6 +102,11 @@ This project is closely related to smart home technology, where this tool is use
 
 <br><br>
 
+## Antares Setup
+In the process of writing.....
+
+<br><br>
+
 ## Firebase Setup
 1. Open the official website ``` Firebase ``` :
    
