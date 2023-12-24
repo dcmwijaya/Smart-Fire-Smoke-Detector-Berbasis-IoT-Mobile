@@ -44,25 +44,6 @@ Proyek ini sangat erat kaitannya dengan teknologi smart home, dimana alat ini di
    
 <br><br>
 
-## Pengaturan
-1. Buka ``` Arduino IDE ``` terlebih dahulu, lalu masuk ke ``` Boards Manager Url ``` dengan cara menyalin tautan berikut:
-   
-   ```bash
-   http://arduino.esp8266.com/stable/package_esp8266com_index.json
-   ```
-<br>
-
-2. ``` Pengaturan Board ``` di Arduino IDE<br><br>
-   • Cara: klik ``` Boards Manager ``` -> ``` ESP8266 Boards ``` -> ``` LOLIN(WEMOS) D1 R2 & Mini ```.
-   <br><br><br>
-3. ``` Pengaturan Port ``` di Arduino IDE<br><br>
-   • Cara: klik ``` Port ``` -> Pilih sesuai dengan port perangkat Anda ``` (Anda dapat melihatnya di Device Manager) ```.
-   <br><br><br>
-4. ``` Instal pustaka ``` di Arduino IDE<br><br>
-   • Cara: klik ``` Tools ``` -> ``` Manage Libraries ``` -> ``` Install Library ``` sesuai dengan kebutuhan proyek.
-
-<br><br>
-
 ## Persyaratan Proyek
 <table>
 <tr>
@@ -91,26 +72,50 @@ Proyek ini sangat erat kaitannya dengan teknologi smart home, dimana alat ini di
 
 <br><br>
 
+## Pengaturan Arduino IDE
+1. Buka ``` Arduino IDE ``` terlebih dahulu, kemudian buka proyek dengan cara klik: ``` File ``` -> ``` Open ``` -> ``` Final_Project_Indobot_KelasMulaiJadiIoTEngineerHebat.ino ```.<br><br>
+   
+2. Isi ``` Url Pengelola Papan Tambahan ``` di Arduino IDE<br><br>
+   • Cara: klik ``` File ``` -> ``` Preferences ``` -> masukkan ``` Boards Manager Url ``` dengan menyalin tautan berikut:
+   
+   ```
+   http://arduino.esp8266.com/stable/package_esp8266com_index.json
+   ```
+   
+3. ``` Pengaturan Board ``` di Arduino IDE<br><br>
+   • Cara: klik ``` Tools ``` -> ``` Board ``` -> ``` Boards Manager ``` -> Instal ``` esp8266 ```. Kemudian pilih Board dengan mengklik: ``` Tools ``` -> ``` Board ``` -> ``` ESP8266 Board ``` -> ``` LOLIN(WEMOS) D1 R2 & mini ```.<br><br>
+   
+4. ``` Ubah Kecepatan Papan ``` di Arduino IDE<br><br>
+   • Cara: klik ``` Tools ``` -> ``` Upload Speed ``` -> ``` 115200 ```.<br><br>
+   
+5. ``` Instal Pustaka ``` di Arduino IDE<br><br>
+   • Cara: unduh semua file zip pustaka. Kemudian tempelkan di: ``` C:\Users\Computer_Username\Documents\Arduino\libraries ```.<br><br>
+
+6. ``` Pengaturan Port ``` di Arduino IDE<br><br>
+   • Cara: klik ``` Port ``` -> Pilih sesuai dengan port perangkat Anda ``` (Anda dapat melihatnya di Device Manager) ```.<br><br>
+
+7. Ubah ``` Nama WiFi ```, ``` Kata Sandi WiFi ```, dan sebagainya sesuai dengan apa yang Anda gunakan saat ini.<br><br>
+
+8. Sebelum mengunggah program, silakan klik: ``` Verify ```.<br><br>
+
+9. Jika tidak ada kesalahan dalam kode program, silakan klik: ``` Upload ```.
+
+<br><br>
+
 ## Memulai
-1. Pastikan anda memiliki komponen elektronik yang diperlukan.
+1. Unduh dan ekstrak repositori ini.<br><br>
    
-2. Pastikan komponen anda telah dirancang sesuai dengan diagram.
+2. Pastikan anda memiliki komponen elektronik yang diperlukan.<br><br>
    
-3. Pastikan komponen terhubung dengan baik ``` (Sesuaikan pengaturan Board dan Port) ```.
+3. Pastikan komponen anda telah dirancang sesuai dengan diagram.<br><br>
    
-4. Disarankan untuk ``` membuat akun Platform IoT ``` sekaligus dengan layanannya.
+4. Membuat akun untuk Platform IoT beserta layanannya.<br><br>
     
-5. Pastikan untuk mengubah kode program arduino di bagian ``` Router ``` sesuai dengan perangkat yang anda gunakan.
-    
-6. Jika anda tidak menerapkan poin 1 dan 2 untuk keperluan pengembangan proyek itu tidak masalah, tetapi harap dicatat bahwa beberapa hal perlu diubah agar dapat berfungsi dengan baik.
+5. Jika Anda tidak menerapkan poin 2 dan 3 untuk tujuan pengembangan proyek, tidak masalah, tetapi perlu diketahui bahwa beberapa hal perlu diubah sesuai dengan kebutuhan Anda agar sistem dapat bekerja dengan baik.<br><br>
 
-7. Pastikan perangkat terhubung ke internet.
+6. Pastikan semua Things telah dibuat.<br><br>
 
-8. Pastikan semua Things telah dibuat.
-
-9. Unduh dan ekstrak repositori ini.
-   
-10. Selamat menikmati [Selesai].
+7. Selamat menikmati [Selesai].
 
 <br><br>
 
