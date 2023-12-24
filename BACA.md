@@ -113,7 +113,7 @@ Proyek ini sangat erat kaitannya dengan teknologi smart home, dimana alat ini di
 
    • Klik ``` + Create an Application ```.
 
-   • Dalam menu ``` Add Application ``` isilah seperti ini:
+   • Dalam menu ``` Add Application ```, silakan menentukan beberapa hal berikut :
       - ``` Application Name ``` -> ``` Aplikasi yang Anda buat ```.
       - ``` Application ID ``` -> ``` ID Aplikasi yang Anda buat ```.
       - ``` Labels ``` -> tentukan sesuai dengan kebutuhan proyek.<br><br>
