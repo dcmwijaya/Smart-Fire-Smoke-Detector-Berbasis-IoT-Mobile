@@ -103,7 +103,17 @@ Proyek ini sangat erat kaitannya dengan teknologi smart home, dimana alat ini di
 <br><br>
 
 ## Pengaturan Firebase
-1. Dalam proses....
+1. Buka situs resmi ``` Firebase ``` :
+   
+   ```
+   https://console.firebase.google.com/
+   ```
+   
+2. Buat proyek dengan nama bebas.<br><br>
+
+3. Klik ``` simbol gerigi ``` yang ada di samping ``` Project Overview ``` -> Lalu pilih ``` Project settings ``` untuk mendapatkan ``` FirebaseToken ```.<br><br>
+
+4. Klik ``` Realtime Database ``` untuk mendapatkan ``` FirebaseURL ```.
 
 <br><br>
 
@@ -114,19 +124,24 @@ Proyek ini sangat erat kaitannya dengan teknologi smart home, dimana alat ini di
    https://appinventor.mit.edu/
    ```
    
-2. klik ``` Create Apps! ```, kemudian masuk dengan menggunakan akun google.<br><br>
+2. Klik ``` Create Apps! ```, kemudian masuk dengan menggunakan akun google.<br><br>
 
 3. Klik ``` Project ``` -> lalu impor ``` Smart_Fire_Smoke_Detector.aia ``` dari direktori ``` Smart-Fire-Smoke-Detector-Berbasis-IoT-Mobile\Src\MIT App Inventor Project\ ```.<br><br>
 
-4. Kemudian klik ``` Connect ``` -> selanjutnya pilih ``` AI Companion ```.<br><br>
+4. Klik ``` FirebaseDB1 ``` lalu atur 3 poin berikut ini: .<br><br>
+   • ``` FirebaseToken ``` itu isi dengan ``` Token ``` yang ada di bagian ``` Project settings ```.<br><br>
+   • ``` FirebaseURL ``` itu isi dengan ``` URL ``` yang ada di bagian ``` Realtime Database ```.<br><br>
+   • ``` ProjectBucket ``` ini sebenarnya adalah semacam folder di mana tag dan nilai akan disimpan, oleh programmer itu diisi dengan nama ``` Detect ``` karena menyesuaikan dengan yang ada di ``` Firebase ```.<br><br>
 
-5. Buka smartphone anda, lalu pada ``` Google Play Store ``` cari aplikasi ``` MIT AI2 Companion ```, kemudian lakukan instalasi.<br><br>
+5. Kemudian klik ``` Connect ``` -> selanjutnya pilih ``` AI Companion ```.<br><br>
 
-6. Buka aplikasi ``` MIT AI2 Companion ```.<br><br>
+6. Buka smartphone anda, lalu pada ``` Google Play Store ``` cari aplikasi ``` MIT AI2 Companion ```, kemudian lakukan instalasi.<br><br>
 
-7. Pilih metode ``` Scan QR Code ```.<br><br>
+7. Buka aplikasi ``` MIT AI2 Companion ```.<br><br>
 
-8. Arahkan smartphone anda ke area ``` QR Code ``` yang ada di situs ``` MIT App Inventor ```.
+8. Pilih metode ``` Scan QR Code ```.<br><br>
+
+9. Arahkan smartphone anda ke area ``` QR Code ``` yang ada di situs ``` MIT App Inventor ```.
 
 <br><br>
 
