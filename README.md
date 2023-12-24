@@ -12,13 +12,15 @@ This project is closely related to smart home technology, where this tool is use
 ## Features / Framework / Tools
 | Media | Description |
 | --- | --- |
-| Platform | Antares & MIT App Inventor |
-| IoT Protocol | MQTT |
-| Architecture | 4 Layer |
 | Board Development | Wemos D1 R2 |
 | Code Editor | Arduino IDE |
-| Arduino Library | ESP8266WiFi, AntaresESP8266MQTT, Firebase_ESP_Client, addons/TokenHelper, addons/RTDBHelper, MQ2_LPG, Wire, & LiquidCrystal_I2C  |
+| Driver | USB-Serial CH340 |
+| IoT Platform | Antares |
+| IoT Protocol | MQTT |
+| Architecture | 4 Layer |
+| Mobile App Platform | MIT App Inventor |
 | Database |  Firebase |
+| Arduino Library | ESP8266WiFi, AntaresESP8266MQTT, Firebase_ESP_Client, addons/TokenHelper, addons/RTDBHelper, MQ2_LPG, Wire, & LiquidCrystal_I2C  |
 | Actuators | Piezo buzzer |
 | Sensor | Fire Sensor (KY-26) & Gas Sensor (MQ-2) |
 | Display | LCD I2C |
@@ -26,11 +28,20 @@ This project is closely related to smart home technology, where this tool is use
 
 <br><br>
 
-## Download & Install Arduino IDE
-```bash
-https://www.arduino.cc/en/software
-```
+## Download & Install
+1. Arduino IDE
 
+   ```
+   https://www.arduino.cc/en/software
+   ```
+<br>
+
+2. USB-Serial CH340
+
+   ```
+   https://bit.ly/CH340_Driver
+   ```
+   
 <br><br>
 
 ## Settings
