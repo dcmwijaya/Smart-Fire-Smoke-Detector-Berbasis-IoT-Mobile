@@ -128,7 +128,7 @@ Proyek ini sangat erat kaitannya dengan teknologi smart home, dimana alat ini di
 
 3. Klik ``` Project ``` -> lalu impor ``` Smart_Fire_Smoke_Detector.aia ``` dari direktori ``` Smart-Fire-Smoke-Detector-Berbasis-IoT-Mobile\Src\MIT App Inventor Project\ ```.<br><br>
 
-4. Klik ``` FirebaseDB1 ``` lalu atur 3 poin berikut ini: .<br><br>
+4. Klik ``` FirebaseDB1 ``` lalu atur 3 poin berikut ini :<br><br>
    • ``` FirebaseToken ``` itu isi dengan ``` Token ``` yang ada di bagian ``` Project settings ```.<br><br>
    • ``` FirebaseURL ``` itu isi dengan ``` URL ``` yang ada di bagian ``` Realtime Database ```.<br><br>
    • ``` ProjectBucket ``` ini sebenarnya adalah semacam folder di mana tag dan nilai akan disimpan, oleh programmer itu diisi dengan nama ``` Detect ``` karena menyesuaikan dengan yang ada di ``` Firebase ```.<br><br>
