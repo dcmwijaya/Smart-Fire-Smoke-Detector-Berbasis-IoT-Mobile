@@ -102,6 +102,11 @@ Proyek ini sangat erat kaitannya dengan teknologi smart home, dimana alat ini di
 
 <br><br>
 
+## Antares Setup
+Dalam proses penulisan.....
+
+<br><br>
+
 ## Pengaturan Firebase
 1. Buka situs resmi ``` Firebase ``` :
    
