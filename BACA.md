@@ -135,13 +135,13 @@ Proyek ini sangat erat kaitannya dengan teknologi smart home, dimana alat ini di
 
 5. Kemudian klik ``` Connect ``` -> selanjutnya pilih ``` AI Companion ```.<br><br>
 
-6. Buka smartphone anda, lalu pada ``` Google Play Store ``` cari aplikasi ``` MIT AI2 Companion ```, kemudian lakukan instalasi.<br><br>
+6. Buka ponsel cerdas anda, lalu pada ``` Google Play Store ``` cari aplikasi ``` MIT AI2 Companion ```, kemudian lakukan instalasi.<br><br>
 
 7. Buka aplikasi ``` MIT AI2 Companion ```.<br><br>
 
 8. Pilih metode ``` Scan QR Code ```.<br><br>
 
-9. Arahkan smartphone anda ke area ``` QR Code ``` yang ada di situs ``` MIT App Inventor ```.
+9. Arahkan ponsel cerdas anda ke area ``` QR Code ``` yang ada di situs ``` MIT App Inventor ```.
 
 <br><br>
 
