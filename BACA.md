@@ -134,6 +134,11 @@ Proyek ini sangat erat kaitannya dengan teknologi smart home, dimana alat ini di
 
    ```
    #define ACCESSKEY "1444e88d02acb758:b996115b1c2f6f0f"
+   ```
+
+   • ``` Nama proyek ``` dan ``` nama device ``` pada kode firmware itu harus sesuai seperti yang dibuat tadi. Berikut merupakan contohnya :
+   
+   ```
    #define projectName "Final_Project_Indobot_Academy_2023"
    #define deviceName "Smart_Fire_Smoke_Detector"
    ```
