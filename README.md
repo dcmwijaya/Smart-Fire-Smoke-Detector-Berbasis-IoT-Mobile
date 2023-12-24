@@ -108,7 +108,7 @@ This project is closely related to smart home technology, where this tool is use
 
    • Then please <a href="https://beta-console.antares.id/id">Sign In</a> to access the service.<br><br>
    
-3. Create applications :<br><br>
+2. Create applications :<br><br>
    • Go to ``` Applications ``` menu.
 
    • Click ``` + Create an Application ```.
@@ -118,14 +118,14 @@ This project is closely related to smart home technology, where this tool is use
       - ``` Application ID ``` -> ``` ID of the App you will create ```.
       - ``` Labels ``` -> determine according to project needs.<br><br>
    
-4. Create a device :<br><br>
+3. Create a device :<br><br>
    • Make sure you are on the ``` Home / Applications / The app you created ``` menu.
 
    • Click ``` + Add Device ```.
 
    • You should specify the name of this device based on the variables in the project.<br><br>
    
-5. Firmware configuration :<br><br>
+4. Firmware configuration :<br><br>
    • Make sure you are on the ``` Account ``` menu.
 
    • Copy ``` Access Key ``` mentioned.
