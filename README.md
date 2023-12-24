@@ -102,6 +102,49 @@ This project is closely related to smart home technology, where this tool is use
 
 <br><br>
 
+## Firebase Setup
+1. Open the official website ``` Firebase ``` :
+   
+   ```
+   https://console.firebase.google.com/
+   ```
+   
+2. Create a project with a free name.<br><br>
+
+3. Click ``` gear symbol ``` next to ``` Project Overview ``` -> Then select ``` Project settings ``` to get the ``` FirebaseToken ```.<br><br>
+
+4. Click ``` Realtime Database ``` to get the ``` FirebaseURL ```.
+
+<br><br>
+
+## MIT App Inventor Setup
+1. Open the official website ``` MIT App Inventor ``` :
+   
+   ```
+   https://appinventor.mit.edu/
+   ```
+   
+2. Click ``` Create Apps! ```, then log in using google account.<br><br>
+
+3. Click ``` Project ``` -> then import ``` Smart_Fire_Smoke_Detector.aia ``` from directory ``` Smart-Fire-Smoke-Detector-Berbasis-IoT-Mobile\Src\MIT App Inventor Project\ ```.<br><br>
+
+4. Click ``` FirebaseDB1 ``` then set the following 3 points:<br><br>
+   • ``` FirebaseToken ``` -> fill with ``` Token ``` obtained from the ``` Project settings ``` section.<br><br>
+   • ``` FirebaseURL ``` -> fill with ``` URL ``` obtained from the ``` Realtime Database ``` section.<br><br>
+   • ``` ProjectBucket ``` -> fill with ``` DB Container ```. In this case it is ``` Detect ```.<br><br>
+
+5. Then click ``` Connect ``` -> next select ``` AI Companion ```.<br><br>
+
+6. Open your smartphone, then in the ``` Google Play Store ``` search for the ``` MIT AI2 Companion ``` application, then install it.<br><br>
+
+7. Open the ``` MIT AI2 Companion ``` app.<br><br>
+
+8. Select ``` Scan QR Code ``` method.<br><br>
+
+9. Point your smartphone at the ``` QR Code ``` area on the ``` MIT App Inventor ``` site.
+
+<br><br>
+
 ## Get Started
 1. Download and extract this repository.<br><br>
    
