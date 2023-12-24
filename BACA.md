@@ -123,7 +123,7 @@ Proyek ini sangat erat kaitannya dengan teknologi smart home, dimana alat ini di
 
    • Klik ``` + Add Device ```.
 
-   • Kemudian beri nama device anda secara bebas.<br><br>
+   • Nama device ini sebaiknya anda tentukan berdasarkan variabel yang ada dalam proyek.<br><br>
    
 5. Konfigurasi firmware :<br><br>
    • Pastikan anda berada di menu ``` Account ```.
@@ -136,7 +136,7 @@ Proyek ini sangat erat kaitannya dengan teknologi smart home, dimana alat ini di
    #define ACCESSKEY "1444e88d02acb758:b996115b1c2f6f0f"
    ```
 
-   • ``` Nama proyek ``` dan ``` nama device ``` pada kode firmware itu harus sesuai seperti yang telah dibuat tadi. Berikut merupakan contohnya :
+   • Kemudian, ``` Nama proyek ``` dan ``` Nama device ``` itu harus sesuai dengan yang telah dibuat tadi. Berikut ini adalah contohnya :
    
    ```
    #define projectName "Final_Project_Indobot_Academy_2023"
