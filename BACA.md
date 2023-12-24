@@ -114,12 +114,12 @@ Proyek ini sangat erat kaitannya dengan teknologi smart home, dimana alat ini di
    • Klik ``` + Create an Application ```.
 
    • Dalam menu ``` Add Application ```, silakan menentukan beberapa hal berikut :
-      - ``` Application Name ``` -> ``` Aplikasi yang Anda buat ```.
-      - ``` Application ID ``` -> ``` ID Aplikasi yang Anda buat ```.
+      - ``` Application Name ``` -> ``` Nama Aplikasi yang akan Anda buat ```.
+      - ``` Application ID ``` -> ``` ID Aplikasi yang akan Anda buat ```.
       - ``` Labels ``` -> tentukan sesuai dengan kebutuhan proyek.<br><br>
    
 4. Membuat Device :<br><br>
-   • Pastikan anda berada di menu ``` Applications ``` -> ``` Aplikasi yang Anda buat ```.
+   • Pastikan anda berada di menu ``` Home / Applications / Aplikasi yang Anda buat ```.
 
    • Klik ``` + Add Device ```.
 
