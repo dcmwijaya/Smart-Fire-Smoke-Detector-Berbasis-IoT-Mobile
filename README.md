@@ -103,8 +103,48 @@ This project is closely related to smart home technology, where this tool is use
 <br><br>
 
 ## Antares Setup
-In the process of writing.....
+1. Getting started with Antares :<br><br>
+   • Please <a href="https://beta-console.antares.id/id/signup">Sign Up</a> first.
 
+   • Then please <a href="https://beta-console.antares.id/id">Sign In</a> to access the service.<br><br>
+   
+3. Create applications :<br><br>
+   • Go to ``` Applications ``` menu.
+
+   • Click ``` + Create an Application ```.
+
+   • In the ``` Add Application ``` menu, please specify the following :
+      - ``` Application Name ``` -> ``` Name of the App you will create ```.
+      - ``` Application ID ``` -> ``` ID of the App you will create ```.
+      - ``` Labels ``` -> determine according to project needs.<br><br>
+   
+4. Create a device :<br><br>
+   • Make sure you are on the ``` Home / Applications / The app you created ``` menu.
+
+   • Click ``` + Add Device ```.
+
+   • You should specify the name of this device based on the variables in the project.<br><br>
+   
+5. Firmware configuration :<br><br>
+   • Make sure you are on the ``` Account ``` menu.
+
+   • Copy ``` Access Key ``` mentioned.
+
+   • Paste in the firmware code, for example like this :
+
+   ```
+   #define ACCESSKEY "1444e88d02acb758:b996115b1c2f6f0f"
+   ```
+
+   • Then, the ``` Project name ``` and ``` Device name ``` must match what was created earlier. Here is an example :
+   
+   ```
+   #define projectName "Final_Project_Indobot_Academy_2023"
+   #define deviceName "Smart_Fire_Smoke_Detector"
+   ```
+
+   • If it fails to connect to Antares, then the approximate problem is in the software / firmware / hardware section. Please check again.
+   
 <br><br>
 
 ## Firebase Setup
