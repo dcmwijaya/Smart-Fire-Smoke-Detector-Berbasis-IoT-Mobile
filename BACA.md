@@ -12,13 +12,15 @@ Proyek ini sangat erat kaitannya dengan teknologi smart home, dimana alat ini di
 ## Fitur / Kerangka Kerja / Peralatan
 | Media | Deskripsi |
 | --- | --- |
-| Platform | Antares & MIT App Inventor |
-| Protokol IoT | MQTT |
-| Arsitektur | 4 Layer |
 | Papan Pengembangan | Wemos D1 R2 |
 | Editor Kode | Arduino IDE |
-| Pustaka Arduino | ESP8266WiFi, AntaresESP8266MQTT, Firebase_ESP_Client, addons/TokenHelper, addons/RTDBHelper, MQ2_LPG, Wire, & LiquidCrystal_I2C  |
+| Driver | USB-Serial CH340 |
+| Platform IoT | Antares |
+| Protokol IoT | MQTT |
+| Arsitektur | 4 Layer |
+| Platform Aplikasi Seluler | MIT App Inventor |
 | Basis Data |  Firebase |
+| Pustaka Arduino | ESP8266WiFi, AntaresESP8266MQTT, Firebase_ESP_Client, addons/TokenHelper, addons/RTDBHelper, MQ2_LPG, Wire, & LiquidCrystal_I2C  |
 | Aktuator | Piezo buzzer |
 | Sensor | Sensor Api (KY-26) & Sensor Gas (MQ-2) |
 | Layar | LCD I2C |
@@ -26,11 +28,20 @@ Proyek ini sangat erat kaitannya dengan teknologi smart home, dimana alat ini di
 
 <br><br>
 
-## Unduh & Instal Arduino IDE
-```bash
-https://www.arduino.cc/en/software
-```
+## Unduh & Instal
+1. Arduino IDE
 
+   ```
+   https://www.arduino.cc/en/software
+   ```
+<br>
+
+2. USB-Serial CH340
+
+   ```
+   https://bit.ly/CH340_Driver
+   ```
+   
 <br><br>
 
 ## Pengaturan
