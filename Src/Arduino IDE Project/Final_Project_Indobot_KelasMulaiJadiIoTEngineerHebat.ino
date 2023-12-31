@@ -1,21 +1,21 @@
 // WiFi
 #include <ESP8266WiFi.h>
 #include <AntaresESP8266MQTT.h>
-#define WIFISSID "ISI_NAMA_WIFI_ANDA"
-#define PASSWORD "ISI_PASSWORD_WIFI_ANDA"
+#define WIFISSID "YOUR_WIFI_NAME"
+#define PASSWORD "YOUR_WIFI_PASSWORD"
 
 // MQTT ANTARES
-#define ACCESSKEY "ISI_ACCESS_KEY_ANTARES_ANDA"
-#define projectName "ISI_NAMA_APPLICATION_ANTARES_ANDA"
-#define deviceName "ISI_NAMA_DEVICE_ANTARES_ANDA"
+#define ACCESSKEY "YOUR_ANTARES_ACCESS_KEY"
+#define projectName "YOUR_ANTARES_APPLICATION_NAME"
+#define deviceName "YOUR_ANTARES_DEVICE_NAME"
 AntaresESP8266MQTT antares(ACCESSKEY);
 
 // Firebase
 #include <Firebase_ESP_Client.h>
 #include "addons/TokenHelper.h"
 #include "addons/RTDBHelper.h"
-#define API_KEY "ISI_API_KEY_FIREBASE_ANDA"
-#define DATABASE_URL "ISI_URL_DATABASE_FIREBASE_ANDA" 
+#define API_KEY "YOUR_FIREBASE_API_KEY"
+#define DATABASE_URL "YOUR_FIREBASE_DATABASE_URL" 
 FirebaseData fbdo; 
 FirebaseAuth auth;
 FirebaseConfig config;
