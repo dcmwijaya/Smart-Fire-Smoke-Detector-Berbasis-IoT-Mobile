@@ -52,7 +52,7 @@ This project is closely related to smart home technology, where this tool is use
 <th width="280">Block Diagram</th>
 </tr>
 <tr>
-<td><img src="https://user-images.githubusercontent.com/54527592/230712347-46f2d325-6f03-488e-8b79-b0f987550dee.jpg" alt="Schematic-Diagram"></td>
+<td><img src="https://github.com/devancakra/Smart-Fire-Smoke-Detector-Berbasis-IoT-Mobile/assets/54527592/96bb0e6b-f03d-4f39-a6d8-e993e7405f27" alt="Schematic-Diagram"></td>
 <td><img src="https://user-images.githubusercontent.com/54527592/230712584-0eeead02-6707-4474-a973-2b69ad8521e0.jpg" alt="Pictorial-Diagram"></td>
 <td><img src="https://user-images.githubusercontent.com/54527592/230714375-b773c927-3c82-4036-a520-8a1a20df778b.jpg" alt="Block-Diagram"></td>
 </tr>
@@ -64,9 +64,9 @@ This project is closely related to smart home technology, where this tool is use
 <th width="280">Systems Diagram</th>
 </tr>
 <tr>
-<td><img src="https://user-images.githubusercontent.com/54527592/231572412-e9f16257-0fdd-4237-8f61-4a72559a68fb.jpg" alt="Infrastructure"></td>
-<td><img src="https://user-images.githubusercontent.com/54527592/230714098-e75e4eb4-e150-4660-a591-94e8451a21f4.jpg" alt="Prototype"></td>
-<td><img src="https://user-images.githubusercontent.com/54527592/231572541-280549e4-fcae-4a69-bfc6-c6ed95f71c7d.jpg" alt="Systems-Diagram"></td>
+<td><img src="https://github.com/devancakra/Smart-Fire-Smoke-Detector-Berbasis-IoT-Mobile/assets/54527592/77efc5b8-fc80-4b39-a979-64a548594119" alt="Infrastructure"></td>
+<td><img src="https://github.com/devancakra/Smart-Fire-Smoke-Detector-Berbasis-IoT-Mobile/assets/54527592/998fe206-f514-4cd4-92de-0d74387e539b" alt="Prototype"></td>
+<td><img src="https://github.com/devancakra/Smart-Fire-Smoke-Detector-Berbasis-IoT-Mobile/assets/54527592/46497a05-c8cd-425d-aa4b-40b430cb8f74" alt="Systems-Diagram"></td>
 </tr>
 </table>
 
