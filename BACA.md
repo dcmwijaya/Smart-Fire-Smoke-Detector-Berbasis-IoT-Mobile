@@ -102,7 +102,7 @@ Proyek ini sangat erat kaitannya dengan teknologi smart home, dimana alat ini di
 
 <br><br>
 
-## Antares Setup
+## Pengaturan Antares
 1. Memulai Antares :<br><br>
    • Silakan <a href="https://beta-console.antares.id/id/signup">Registrasi</a> terlebih dahulu.
 
