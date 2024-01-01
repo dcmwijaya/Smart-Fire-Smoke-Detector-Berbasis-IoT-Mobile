@@ -24,7 +24,7 @@ This project is closely related to smart home technology, where this tool is use
 | Actuators | Piezo buzzer |
 | Sensor | Fire Sensor (KY-26) & Gas Sensor (MQ-2) |
 | Display | LCD I2C |
-| Other Components | Jumper cable & Breadboard  |
+| Other Components | Micro usb cable, Jumper cable, Breadboard, ETC |
 
 <br><br>
 
