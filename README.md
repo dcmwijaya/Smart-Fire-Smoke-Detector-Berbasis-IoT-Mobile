@@ -21,10 +21,10 @@ This project is closely related to smart home technology, where this tool is use
 | Mobile App Platform | MIT App Inventor |
 | Database |  Firebase |
 | Arduino Library | ESP8266WiFi, AntaresESP8266MQTT, Firebase_ESP_Client, addons/TokenHelper, addons/RTDBHelper, MQ2_LPG, Wire, & LiquidCrystal_I2C  |
-| Actuators | Piezo buzzer |
-| Sensor | Fire Sensor (KY-26) & Gas Sensor (MQ-2) |
-| Display | LCD I2C |
-| Other Components | Micro usb cable, Jumper cable, Breadboard, ETC |
+| Actuators | Piezo buzzer (x1) |
+| Sensor | KY-26: Fire Sensor (x1) & MQ-2: Gas Sensor (x1) |
+| Display | LCD I2C (x1) |
+| Other Components | Micro usb cable (x1), Jumper cable, Breadboard (x1), ETC |
 
 <br><br>
 
