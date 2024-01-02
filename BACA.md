@@ -20,6 +20,7 @@ Proyek ini sangat erat kaitannya dengan teknologi smart home, dimana alat ini di
 | Arsitektur IoT | 4 Lapisan |
 | Platform Aplikasi Seluler | MIT App Inventor |
 | Basis Data |  Firebase |
+| Bahasa Pemrograman | C/C++ |
 | Pustaka Arduino | ESP8266WiFi, AntaresESP8266MQTT, Firebase_ESP_Client, addons/TokenHelper, addons/RTDBHelper, MQ2_LPG, Wire, & LiquidCrystal_I2C  |
 | Aktuator | Piezo buzzer (x1) |
 | Sensor | KY-26: Sensor Api (x1) & MQ-2: Sensor Gas (x1) |
