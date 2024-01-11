@@ -9,7 +9,7 @@ This project is closely related to smart home technology, where this tool is use
 
 <br><br>
 
-## Features / Framework / Tools
+## Project Requirements
 | Media | Description |
 | --- | --- |
 | Board Development | Wemos D1 R2 |
@@ -45,7 +45,7 @@ This project is closely related to smart home technology, where this tool is use
    
 <br><br>
 
-## Project Requirements
+## Project Designs
 <table>
 <tr>
 <th width="280">Schematic Diagram</th>
@@ -198,13 +198,9 @@ This project is closely related to smart home technology, where this tool is use
    
 3. Make sure your components are designed according to the diagram.<br><br>
    
-4. Create an account for the IoT Platform and its services.<br><br>
-    
-5. If you don't apply points 2 and 3 for project development purposes, that's fine, but be aware that some things need to be changed according to your needs for the system to work properly.<br><br>
+4. Configure your device according to the settings above.<br><br>
 
-6. Make sure all things have been created.<br><br>
-
-7. Please enjoy [Done].
+5. Please enjoy [Done].
 
 <br><br>
 
