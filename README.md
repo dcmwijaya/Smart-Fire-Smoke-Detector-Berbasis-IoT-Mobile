@@ -18,7 +18,7 @@ This project is closely related to smart home technology, where this tool is use
 | IoT Platform | Antares |
 | IoT Protocol | MQTT |
 | IoT Architecture | 4 Layer |
-| Mobile App Platform | MIT App Inventor |
+| Application Support | MIT App Inventor |
 | Database |  Firebase |
 | Programming Language | C/C++ |
 | Arduino Library | ESP8266WiFi, AntaresESP8266MQTT, Firebase_ESP_Client, addons/TokenHelper, addons/RTDBHelper, MQ2_LPG, Wire, & LiquidCrystal_I2C  |
