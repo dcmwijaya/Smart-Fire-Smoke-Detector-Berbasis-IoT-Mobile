@@ -25,7 +25,7 @@ Proyek ini sangat erat kaitannya dengan teknologi smart home, dimana alat ini di
 | Aktuator | Piezo buzzer (x1) |
 | Sensor | KY-26: Sensor Api (x1) & MQ-2: Sensor Gas (x1) |
 | Layar | LCD I2C (x1) |
-| Komponen Lainnya | Kabel mikro usb (x1), Kabel jumper, Breadboard (x1), DLL |
+| Komponen Lainnya | Kabel Mikro USB - USB tipe A (x1), Kabel jumper (1 set), Breadboard (x1), dan Kotak casing (x1) |
 
 <br><br>
 
