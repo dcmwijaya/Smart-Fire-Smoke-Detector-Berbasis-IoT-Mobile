@@ -18,7 +18,7 @@ Proyek ini sangat erat kaitannya dengan teknologi smart home, dimana alat ini di
 | Platform IoT | Antares |
 | Protokol IoT | MQTT |
 | Arsitektur IoT | 4 Lapisan |
-| Platform Aplikasi Seluler | MIT App Inventor |
+| Dukungan Aplikasi | MIT App Inventor |
 | Basis Data |  Firebase |
 | Bahasa Pemrograman | C/C++ |
 | Pustaka Arduino | ESP8266WiFi, AntaresESP8266MQTT, Firebase_ESP_Client, addons/TokenHelper, addons/RTDBHelper, MQ2_LPG, Wire, & LiquidCrystal_I2C  |
