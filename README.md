@@ -12,7 +12,7 @@ This project is closely related to smart home technology, where this tool is use
 ## Project Requirements
 | Media | Description |
 | --- | --- |
-| Board Development | Wemos D1 R2 |
+| Development Board | Wemos D1 R2 |
 | Code Editor | Arduino IDE |
 | Driver | USB-Serial CH340 |
 | IoT Platform | Antares |
