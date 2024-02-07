@@ -14,11 +14,11 @@ This project is closely related to smart home technology, where this tool is use
 | --- | --- |
 | Development Board | Wemos D1 R2 |
 | Code Editor | Arduino IDE |
+| Application Support | MIT App Inventor |
 | Driver | USB-Serial CH340 |
 | IoT Platform | Antares |
 | IoT Protocol | MQTT |
 | IoT Architecture | 4 Layer |
-| Application Support | MIT App Inventor |
 | Database |  Firebase |
 | Programming Language | C/C++ |
 | Arduino Library | ESP8266WiFi, AntaresESP8266MQTT, Firebase_ESP_Client, addons/TokenHelper, addons/RTDBHelper, MQ2_LPG, Wire, & LiquidCrystal_I2C  |
@@ -99,7 +99,9 @@ This project is closely related to smart home technology, where this tool is use
 
 8. Before uploading the program please click: ``` Verify ```.<br><br>
 
-9. If there is no error in the program code, then please click: ``` Upload ```.
+9. If there is no error in the program code, then please click: ``` Upload ```.<br><br>
+
+10. If there is still a problem when uploading the program, then try to check the ``` driver ``` / ``` port ``` / ``` others ``` section.
 
 <br><br>
 
