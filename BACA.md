@@ -217,10 +217,14 @@ Proyek ini sangat erat kaitannya dengan teknologi smart home, dimana alat ini di
 
 ## Pengaturan Firebase
 1. Buka situs resmi ``` Firebase ``` :
+
+   <table><tr><td width="810">
    
    ```
    https://console.firebase.google.com/
    ```
+
+   </td></tr></table><br>
    
 2. Buat proyek dengan nama bebas.<br><br>
 
@@ -232,19 +236,30 @@ Proyek ini sangat erat kaitannya dengan teknologi smart home, dimana alat ini di
 
 ## Pengaturan MIT App Inventor
 1. Buka situs resmi ``` MIT App Inventor ``` :
+
+   <table><tr><td width="810">
    
    ```
    https://appinventor.mit.edu/
    ```
+
+   </td></tr></table><br>
    
 2. Klik ``` Create Apps! ```, kemudian masuk dengan menggunakan akun google.<br><br>
 
 3. Klik ``` Project ``` -> lalu impor ``` Smart_Fire_Smoke_Detector.aia ``` dari direktori ``` Smart-Fire-Smoke-Detector-Berbasis-IoT-Mobile\Src\MIT App Inventor Project\ ```.<br><br>
 
-4. Klik ``` FirebaseDB1 ``` lalu atur 3 poin berikut ini :<br><br>
-   • ``` FirebaseToken ``` -> isi dengan ``` Token ``` yang diperoleh dari bagian ``` Project settings ```.<br><br>
-   • ``` FirebaseURL ``` -> isi dengan ``` URL ``` yang diperoleh dari bagian ``` Realtime Database ```.<br><br>
-   • ``` ProjectBucket ``` -> isi dengan ``` Kontainer DB ```. Dalam hal ini adalah ``` Detect ```.<br><br>
+4. Klik ``` FirebaseDB1 ``` lalu atur 3 poin berikut ini :
+
+   <table><tr><td width="810">
+      
+   • ``` FirebaseToken ``` -> isi dengan ``` Token ``` yang diperoleh dari bagian ``` Project settings ```.
+   
+   • ``` FirebaseURL ``` -> isi dengan ``` URL ``` yang diperoleh dari bagian ``` Realtime Database ```.
+   
+   • ``` ProjectBucket ``` -> isi dengan ``` Kontainer DB ```. Dalam hal ini adalah ``` Detect ```.
+
+   </td></tr></table><br>
 
 5. Kemudian klik ``` Connect ``` -> selanjutnya pilih ``` AI Companion ```.<br><br>
 
