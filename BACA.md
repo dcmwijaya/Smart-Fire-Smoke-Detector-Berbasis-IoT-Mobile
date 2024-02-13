@@ -17,7 +17,7 @@ Proyek ini sangat erat kaitannya dengan teknologi smart home, dimana alat ini di
 | Dukungan Aplikasi | MIT App Inventor |
 | Driver | USB-Serial CH340 |
 | Platform IoT | Antares |
-| Protokol Komunikasi | • I2C<br>• MQTT |
+| Protokol Komunikasi | • Inter Integrated Circuit (I2C)<br>• Message Queuing Telemetry Transport (MQTT) |
 | Arsitektur IoT | 4 Lapisan |
 | Basis Data |  Firebase |
 | Bahasa Pemrograman | C/C++ |
