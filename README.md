@@ -217,10 +217,14 @@ This project is closely related to smart home technology, where this tool is use
 
 ## Firebase Setup
 1. Open the official website ``` Firebase ``` :
+
+   <table><tr><td width="810">
    
    ```
    https://console.firebase.google.com/
    ```
+
+   </td></tr></table><br>
    
 2. Create a project with a free name.<br><br>
 
@@ -232,10 +236,14 @@ This project is closely related to smart home technology, where this tool is use
 
 ## MIT App Inventor Setup
 1. Open the official website ``` MIT App Inventor ``` :
+
+   <table><tr><td width="810">
    
    ```
    https://appinventor.mit.edu/
    ```
+
+   </td></tr></table><br>
    
 2. Click ``` Create Apps! ```, then log in using google account.<br><br>
 
