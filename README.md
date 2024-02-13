@@ -153,12 +153,20 @@ This project is closely related to smart home technology, where this tool is use
 <br><br>
 
 ## Antares Setup
-1. Getting started with Antares :<br><br>
+1. Getting started with Antares :
+
+   <table><tr><td width="810">
+      
    • Please <a href="https://beta-console.antares.id/id/signup">Sign Up</a> first.
 
-   • Then please <a href="https://beta-console.antares.id/id">Sign In</a> to access the service.<br><br>
+   • Then please <a href="https://beta-console.antares.id/id">Sign In</a> to access the service.
+
+   </td></tr></table><br>
    
-2. Create applications :<br><br>
+2. Create applications :
+
+   <table><tr><td width="810">
+      
    • Go to ``` Applications ``` menu.
 
    • Click ``` + Create an Application ```.
@@ -166,16 +174,26 @@ This project is closely related to smart home technology, where this tool is use
    • In the ``` Add Application ``` menu, please specify the following :
       - ``` Application Name ``` -> ``` Name of the App you will create ```.
       - ``` Application ID ``` -> ``` ID of the App you will create ```.
-      - ``` Labels ``` -> determine according to project needs.<br><br>
+      - ``` Labels ``` -> determine according to project needs.
+
+   </td></tr></table><br>
    
-3. Create a device :<br><br>
+3. Create a device :
+
+   <table><tr><td width="810">
+      
    • Make sure you are on the ``` Home / Applications / The app you created ``` menu.
 
    • Click ``` + Add Device ```.
 
-   • You should specify the name of this device based on the variables in the project.<br><br>
+   • You should specify the name of this device based on the variables in the project.
+
+   </td></tr></table><br>
    
-4. Firmware configuration :<br><br>
+4. Firmware configuration :
+
+   <table><tr><td width="810">
+      
    • Make sure you are on the ``` Account ``` menu.
 
    • Copy ``` Access Key ``` mentioned.
@@ -186,14 +204,14 @@ This project is closely related to smart home technology, where this tool is use
    #define ACCESSKEY "1444e88d02acb758:b996115b1c2f6f0f"
    ```
 
-   • Then, the ``` Project name ``` and ``` Device name ``` must match what was created earlier. Here is an example :
+   • Then, the ``` Project name ``` and ``` Device name ``` must match what was created earlier. For example :
    
    ```
    #define projectName "Final_Project_Indobot_Academy_2023"
    #define deviceName "Smart_Fire_Smoke_Detector"
    ```
 
-   • If it fails to connect to Antares, then the approximate problem is in the software / firmware / hardware section. Please check again.
+   </td></tr></table>
    
 <br><br>
 
