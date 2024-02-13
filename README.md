@@ -81,34 +81,74 @@ This project is closely related to smart home technology, where this tool is use
 <br><br>
 
 ## Arduino IDE Setup
-1. Open the ``` Arduino IDE ``` first, then open the project by clicking: ``` File ``` -> ``` Open ``` -> ``` Final_Project_Indobot_KelasMulaiJadiIoTEngineerHebat.ino ```.<br><br>
-   
-2. Fill in the ``` Additional Board Manager URLs ``` in Arduino IDE<br><br>
-   • Method: click ``` File ``` -> ``` Preferences ``` -> enter the ``` Boards Manager Url ``` by copying the following link:
-   
-   ```
-   http://arduino.esp8266.com/stable/package_esp8266com_index.json
-   ```
-   
-3. ``` Board Setup ``` in Arduino IDE<br><br>
-   • Method: click ``` Tools ``` -> ``` Board ``` -> ``` Boards Manager ``` -> Install ``` esp8266 ```. Then selecting a Board by clicking: ``` Tools ``` -> ``` Board ``` -> ``` ESP8266 Board ``` -> ``` LOLIN(WEMOS) D1 R2 & mini ```.<br><br>
-   
-4. ``` Change the Board Speed ``` in Arduino IDE<br><br>
-   • Method: click ``` Tools ``` -> ``` Upload Speed ``` -> ``` 115200 ```.<br><br>
-   
-5. ``` Install Library ``` in Arduino IDE<br><br>
-   • Method: download all the library zip files. Then paste it in the: ``` C:\Users\Computer_Username\Documents\Arduino\libraries ```.<br><br>
+1. Open the ``` Arduino IDE ``` first, then open the project by clicking ``` File ``` -> ``` Open ``` :
 
-6. ``` Port Setup ``` in Arduino IDE<br><br>
-   • Method: click ``` Port ``` -> Choose according to your device port ``` (you can see in device manager) ```.<br><br>
+   <table><tr><td width="810">
+      
+      ``` Final_Project_Indobot_KelasMulaiJadiIoTEngineerHebat.ino ```
 
-7. Change the ``` WiFi Name ```, ``` WiFi Password ```, and so on according to what you are currently using.<br><br>
+   </td></tr></table><br>
+   
+2. Fill in the ``` Additional Board Manager URLs ``` in Arduino IDE
 
-8. Before uploading the program please click: ``` Verify ```.<br><br>
+   <table><tr><td width="810">
+      
+      Click ``` File ``` -> ``` Preferences ``` -> enter the ``` Boards Manager Url ``` by copying the following link:
+      
+      ```
+      http://arduino.esp8266.com/stable/package_esp8266com_index.json
+      ```
 
-9. If there is no error in the program code, then please click: ``` Upload ```.<br><br>
+   </td></tr></table><br>
+   
+3. ``` Board Setup ``` in Arduino IDE
 
-10. If there is still a problem when uploading the program, then try to check the ``` driver ``` / ``` port ``` / ``` others ``` section.
+   <table>
+      <tr><th width="810">
+
+      How to setup the ``` WEMOS D1 R2 ``` board
+            
+      </th></tr>
+      <tr><td>
+      
+      • Click ``` Tools ``` -> ``` Board ``` -> ``` Boards Manager ``` -> Install ``` esp8266 ```.
+
+      • Then click ``` Tools ``` -> ``` Board ``` -> ``` ESP8266 Board ``` -> ``` LOLIN(WEMOS) D1 R2 & mini ```.
+
+      </td></tr>
+   </table><br>
+   
+5. ``` Change the Board Speed ``` in Arduino IDE
+
+   <table><tr><td width="810">
+      
+      Click ``` Tools ``` -> ``` Upload Speed ``` -> ``` 115200 ```
+
+   </td></tr></table><br>
+   
+6. ``` Install Library ``` in Arduino IDE
+
+   <table><tr><td width="810">
+      
+      Download all the library zip files. Then paste it in the: ``` C:\Users\Computer_Username\Documents\Arduino\libraries ```
+
+   </td></tr></table><br>
+
+7. ``` Port Setup ``` in Arduino IDE
+
+   <table><tr><td width="810">
+      
+      Click ``` Port ``` -> Choose according to your device port ``` (you can see in device manager) ```
+
+   </td></tr></table><br>
+
+8. Change the ``` WiFi Name ```, ``` WiFi Password ```, and so on according to what you are currently using.<br><br>
+
+9. Before uploading the program please click: ``` Verify ```.<br><br>
+
+10. If there is no error in the program code, then please click: ``` Upload ```.<br><br>
+
+11. If there is still a problem when uploading the program, then try checking the ``` driver ``` / ``` port ``` / ``` others ``` section.
 
 <br><br>
 
