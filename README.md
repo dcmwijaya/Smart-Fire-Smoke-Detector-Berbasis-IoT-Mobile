@@ -17,7 +17,7 @@ This project is closely related to smart home technology, where this tool is use
 | Application Support | MIT App Inventor |
 | Driver | USB-Serial CH340 |
 | IoT Platform | Antares |
-| IoT Protocol | MQTT |
+| Communications Protocol | • I2C<br>• MQTT |
 | IoT Architecture | 4 Layer |
 | Database |  Firebase |
 | Programming Language | C/C++ |
