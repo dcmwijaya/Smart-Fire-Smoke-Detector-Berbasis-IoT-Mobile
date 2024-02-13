@@ -247,7 +247,13 @@ Proyek ini sangat erat kaitannya dengan teknologi smart home, dimana alat ini di
    
 2. Klik ``` Create Apps! ```, kemudian masuk dengan menggunakan akun google.<br><br>
 
-3. Klik ``` Project ``` -> lalu impor ``` Smart_Fire_Smoke_Detector.aia ``` dari direktori ``` Smart-Fire-Smoke-Detector-Berbasis-IoT-Mobile\Src\MIT App Inventor Project\ ```.<br><br>
+3. Klik ``` Project ``` -> lalu impor berkas yang ada di direktori ``` Smart-Fire-Smoke-Detector-Berbasis-IoT-Mobile\Src\MIT App Inventor Project\ ``` :
+
+   <table><tr><td width="810">
+
+   ``` Smart_Fire_Smoke_Detector.aia ```
+
+   </td></tr></table><br>
 
 4. Klik ``` FirebaseDB1 ``` lalu atur 3 poin berikut ini :
 
