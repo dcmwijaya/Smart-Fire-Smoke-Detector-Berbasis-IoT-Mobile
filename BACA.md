@@ -153,12 +153,20 @@ Proyek ini sangat erat kaitannya dengan teknologi smart home, dimana alat ini di
 <br><br>
 
 ## Pengaturan Antares
-1. Memulai Antares :<br><br>
+1. Memulai Antares :
+
+   <table><tr><td width="810">
+      
    • Silakan <a href="https://beta-console.antares.id/id/signup">Registrasi</a> terlebih dahulu.
 
-   • Selanjutnya silakan <a href="https://beta-console.antares.id/id">Masuk</a> agar dapat mengakses layanan.<br><br>
+   • Selanjutnya silakan <a href="https://beta-console.antares.id/id">Masuk</a> agar dapat mengakses layanan.
+
+   </td></tr></table><br>
    
-2. Membuat applications :<br><br>
+2. Membuat applications :
+
+   <table><tr><td width="810">
+      
    • Masuk ke menu ``` Applications ```.
 
    • Klik ``` + Create an Application ```.
@@ -166,16 +174,26 @@ Proyek ini sangat erat kaitannya dengan teknologi smart home, dimana alat ini di
    • Dalam menu ``` Add Application ```, silakan menentukan beberapa hal berikut :
       - ``` Application Name ``` -> ``` Nama Aplikasi yang akan Anda buat ```.
       - ``` Application ID ``` -> ``` ID Aplikasi yang akan Anda buat ```.
-      - ``` Labels ``` -> tentukan sesuai dengan kebutuhan proyek.<br><br>
+      - ``` Labels ``` -> tentukan sesuai dengan kebutuhan proyek.
+
+   </td></tr></table><br>
    
-3. Membuat device :<br><br>
+3. Membuat device :
+
+   <table><tr><td width="810">
+      
    • Pastikan anda berada di menu ``` Home / Applications / Aplikasi yang Anda buat ```.
 
    • Klik ``` + Add Device ```.
 
-   • Nama device ini sebaiknya anda tentukan berdasarkan variabel yang ada dalam proyek.<br><br>
+   • Nama device ini sebaiknya anda tentukan berdasarkan variabel yang ada dalam proyek.
+
+   </td></tr></table><br>
    
-4. Konfigurasi firmware :<br><br>
+4. Konfigurasi firmware :
+
+   <table><tr><td width="810">
+      
    • Pastikan anda berada di menu ``` Account ```.
 
    • Salin ``` Access Key ``` tersebut.
@@ -186,14 +204,14 @@ Proyek ini sangat erat kaitannya dengan teknologi smart home, dimana alat ini di
    #define ACCESSKEY "1444e88d02acb758:b996115b1c2f6f0f"
    ```
 
-   • Kemudian, ``` Nama proyek ``` dan ``` Nama device ``` itu harus sesuai dengan yang telah dibuat tadi. Berikut ini adalah contohnya :
+   • Kemudian, ``` Nama proyek ``` dan ``` Nama device ``` itu harus sesuai dengan yang telah dibuat tadi. Contohnya :
    
    ```
    #define projectName "Final_Project_Indobot_Academy_2023"
    #define deviceName "Smart_Fire_Smoke_Detector"
    ```
 
-   • Jika gagal terkoneksi ke Antares, maka perkiraan masalahnya ada di bagian software / firmware / hardware. Silakan periksa lagi.
+   </td></tr></table>
    
 <br><br>
 
