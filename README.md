@@ -21,27 +21,34 @@ This project is closely related to smart home technology, where this tool is use
 | IoT Architecture | 4 Layer |
 | Database |  Firebase |
 | Programming Language | C/C++ |
-| Arduino Library | ESP8266WiFi, AntaresESP8266MQTT, Firebase_ESP_Client, addons/TokenHelper, addons/RTDBHelper, MQ2_LPG, Wire, & LiquidCrystal_I2C  |
+| Arduino Library | • ESP8266WiFi<br>• AntaresESP8266MQTT<br>• Firebase_ESP_Client<br>• addons/TokenHelper<br>• addons/RTDBHelper<br>• MQ2_LPG<br>• Wire<br>• LiquidCrystal_I2C  |
 | Actuators | Piezo buzzer (x1) |
-| Sensor | KY-26: Fire Sensor (x1) & MQ-2: Gas Sensor (x1) |
+| Sensor | • KY-26: Fire Sensor (x1)<br>• MQ-2: Gas Sensor (x1) |
 | Display | LCD I2C (x1) |
-| Other Components | Micro USB cable - USB type A (x1), Jumper cable (1 set), Breadboard (x1), and Casing box (x1) |
+| Other Components | • Micro USB cable - USB type A (x1)<br>• Jumper cable (1 set)<br>• Breadboard (x1)<br>• Casing box (x1) |
 
 <br><br>
 
 ## Download & Install
 1. Arduino IDE
 
+   <table><tr><td width="810">
+
    ```
    https://www.arduino.cc/en/software
    ```
-<br>
+
+   </td></tr></table><br>
 
 2. USB-Serial CH340
+
+   <table><tr><td width="810">
 
    ```
    https://bit.ly/CH340_Driver
    ```
+
+   </td></tr></table>
    
 <br><br>
 
