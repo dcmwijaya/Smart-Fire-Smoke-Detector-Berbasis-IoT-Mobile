@@ -249,10 +249,17 @@ This project is closely related to smart home technology, where this tool is use
 
 3. Click ``` Project ``` -> then import ``` Smart_Fire_Smoke_Detector.aia ``` from directory ``` Smart-Fire-Smoke-Detector-Berbasis-IoT-Mobile\Src\MIT App Inventor Project\ ```.<br><br>
 
-4. Click ``` FirebaseDB1 ``` then set the following 3 points:<br><br>
-   • ``` FirebaseToken ``` -> fill with ``` Token ``` obtained from the ``` Project settings ``` section.<br><br>
-   • ``` FirebaseURL ``` -> fill with ``` URL ``` obtained from the ``` Realtime Database ``` section.<br><br>
-   • ``` ProjectBucket ``` -> fill with ``` DB Container ```. In this case it is ``` Detect ```.<br><br>
+4. Click ``` FirebaseDB1 ``` then set the following 3 points:
+
+   <table><tr><td width="810">
+      
+   • ``` FirebaseToken ``` -> fill with ``` Token ``` obtained from the ``` Project settings ``` section.
+   
+   • ``` FirebaseURL ``` -> fill with ``` URL ``` obtained from the ``` Realtime Database ``` section.
+   
+   • ``` ProjectBucket ``` -> fill with ``` DB Container ```. In this case it is ``` Detect ```.
+
+   </td></tr></table><br>
 
 5. Then click ``` Connect ``` -> next select ``` AI Companion ```.<br><br>
 
