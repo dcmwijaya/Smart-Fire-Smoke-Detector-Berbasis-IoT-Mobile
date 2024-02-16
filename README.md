@@ -21,7 +21,7 @@ This project is closely related to smart home technology, where this tool is use
 | IoT Architecture | 4 Layer |
 | Database |  Firebase |
 | Programming Language | C/C++ |
-| Arduino Library | • ESP8266WiFi<br>• AntaresESP8266MQTT<br>• Firebase_ESP_Client<br>• addons/TokenHelper<br>• addons/RTDBHelper<br>• MQ2_LPG<br>• Wire<br>• LiquidCrystal_I2C  |
+| Arduino Library | • ESP8266WiFi (default)<br>• Wire (default)<br>• AntaresESP8266MQTT<br>• Firebase_Arduino_Client_Library_for_ESP8266_and_ESP32<br>• MQ2_LPG<br>• LiquidCrystal_I2C |
 | Actuators | Piezo buzzer (x1) |
 | Sensor | • KY-26: Fire Sensor (x1)<br>• MQ-2: Gas Sensor (x1) |
 | Display | LCD I2C (x1) |
