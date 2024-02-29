@@ -5,7 +5,7 @@
 
 # Smart-Fire-Smoke-Detector-Berbasis-IoT-Mobile
 <strong>Indobot Academy Final Project: The Starting Class to Become a Great IoT Engineer Batch 1</strong><br/><br/>
-This project is closely related to smart home technology, where this tool is used in real time to make it easier for users to measure the extent of fire potential in the surrounding room. Existing sensors can operate when affected by light and gas intensity. This tool has been simulated on a mobile basis using the MIT App Inventor platform.
+The increase in population in a country is one of the development capitals. A large population can influence the development of settlements. On the other hand, settlements that are not well regulated can lead to disasters, such as fires. Fire disasters that occur can result in material and immaterial losses. Therefore, this project was created in order to produce a good fire detection system that can be used as a solution to the existing problems. This project has been implemented and took approximately 2 weeks. The results show that the system can function properly. The system interface uses the MIT App Inventor application.
 
 <br><br>
 
