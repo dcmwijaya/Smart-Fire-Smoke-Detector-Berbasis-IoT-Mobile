@@ -5,7 +5,7 @@
 
 # Smart-Fire-Smoke-Detector-Berbasis-IoT-Mobile
 <strong>Tugas Akhir Indobot Academy: Kelas Awal untuk Menjadi Insinyur IoT yang Hebat Batch 1</strong><br/><br/>
-Peningkatan penduduk di suatu negara merupakan salah satu modal pembangunan. Jumlah penduduk yang besar dapat memengaruhi perkembangan permukiman. Namun di sisi lain, permukiman yang tidak diimbangi dengan pengaturan yang baik dapat memicu terjadinya bencana, misalnya kebakaran. Bencana kebakaran yang terjadi dapat mengakibatkan kerugian materiil dan immateriil. Oleh karena itu, proyek ini dibuat oleh penulis untuk dapat menghasilkan sistem peringatan yang baik bagi penghuni rumah. Proyek ini telah dilaksanakan dan memakan waktu kurang lebih 2 minggu. Hasil penelitian menunjukkan bahwa sistem yang dibuat ini dapat berfungsi dengan baik. Antarmuka sistem menggunakan aplikasi MIT App Inventor.
+Peningkatan penduduk di suatu negara merupakan salah satu modal pembangunan. Jumlah penduduk yang besar dapat memengaruhi perkembangan permukiman. Namun di sisi lain, permukiman yang tidak diimbangi dengan pengaturan yang baik dapat memicu terjadinya bencana, misalnya kebakaran. Bencana kebakaran yang terjadi dapat mengakibatkan kerugian materiil dan immateriil. Oleh karena itu, proyek ini dibuat oleh penulis untuk dapat menghasilkan sistem peringatan kebakaran yang baik. Proyek ini telah dilaksanakan dan memakan waktu kurang lebih 2 minggu. Hasil penelitian menunjukkan bahwa sistem yang dibuat ini dapat berfungsi dengan baik. Antarmuka sistem menggunakan aplikasi MIT App Inventor.
 
 <br><br>
 
