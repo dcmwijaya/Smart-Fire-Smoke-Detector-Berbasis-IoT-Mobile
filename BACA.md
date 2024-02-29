@@ -5,7 +5,7 @@
 
 # Smart-Fire-Smoke-Detector-Berbasis-IoT-Mobile
 <strong>Tugas Akhir Indobot Academy: Kelas Awal untuk Menjadi Insinyur IoT yang Hebat Batch 1</strong><br/><br/>
-Proyek ini sangat erat kaitannya dengan teknologi smart home, dimana alat ini digunakan secara real time untuk memudahkan pengguna dalam mengukur sejauh mana potensi kebakaran di ruangan sekitarnya. Sensor yang ada dapat beroperasi ketika terpengaruh oleh intensitas cahaya dan gas. Alat ini telah disimulasikan secara mobile dengan menggunakan platform MIT App Inventor.
+Peningkatan penduduk di suatu negara merupakan salah satu modal pembangunan. Jumlah penduduk yang besar dapat memengaruhi perkembangan permukiman. Namun, di sisi lain permukiman yang tidak diimbangi dengan pengaturan yang baik dapat memicu terjadinya bencana, misalnya kebakaran. Bencana kebakaran yang terjadi dapat mengakibatkan kerugian materiil dan immateriil. Oleh karena itu, proyek ini dibuat untuk menyelesaikan masalah yang ada. Proyek ini telah dilaksanakan dan memakan waktu kurang lebih 2 minggu. Manfaat dari pembuatan proyek ini tidak lain adalah untuk menambah wawasan. Hasil penelitian menunjukkan bahwa sistem yang dibuat ini dapat mendeteksi terjadinya kebakaran. Antarmuka sistem menggunakan aplikasi MIT App Inventor.
 
 <br><br>
 
