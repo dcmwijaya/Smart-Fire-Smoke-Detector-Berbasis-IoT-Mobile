@@ -1,7 +1,7 @@
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?style=flat)](https://github.com/ellerbrock/open-source-badges/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?logo=github&color=%23F7DF1E)](https://opensource.org/licenses/MIT)
 ![GitHub last commit](https://img.shields.io/github/last-commit/devancakra/Smart-Fire-Smoke-Detector-Berbasis-IoT-Mobile)
-![Project](https://img.shields.io/badge/Project-Mobile%20of%20Things-light.svg?style=flat&logo=arduino&logoColor=white&color=%23F7DF1E)
+![Project](https://img.shields.io/badge/Project-IoT%20Mobile-light.svg?style=flat&logo=arduino&logoColor=white&color=%23F7DF1E)
 
 # Smart-Fire-Smoke-Detector-Berbasis-IoT-Mobile
 <strong>Tugas Akhir Indobot Academy: Kelas Awal untuk Menjadi Insinyur IoT yang Hebat Batch 1</strong><br/><br/>
