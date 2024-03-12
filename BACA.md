@@ -200,13 +200,13 @@ Peningkatan penduduk di suatu negara merupakan salah satu modal pembangunan. Jum
 
    • Tempelkan pada kode firmware, contohnya seperti ini :
 
-   ```
+   ```ino
    #define ACCESSKEY "1444e88d02acb758:b996115b1c2f6f0f"
    ```
 
    • Kemudian, ``` Nama proyek ``` dan ``` Nama device ``` itu harus sesuai dengan yang telah dibuat tadi. Contohnya :
    
-   ```
+   ```ino
    #define projectName "Final_Project_Indobot_Academy_2023"
    #define deviceName "Smart_Fire_Smoke_Detector"
    ```
