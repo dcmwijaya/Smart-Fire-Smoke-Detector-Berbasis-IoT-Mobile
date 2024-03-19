@@ -25,7 +25,7 @@ Peningkatan penduduk di suatu negara merupakan salah satu modal pembangunan. Jum
 | Aktuator | Piezo buzzer (x1) |
 | Sensor | • KY-26: Sensor Api (x1)<br>• MQ-2: Sensor Gas (x1) |
 | Layar | LCD I2C (x1) |
-| Komponen Lainnya | • Kabel Mikro USB - USB tipe A (x1)<br>• Kabel jumper (1 set)<br>• Breadboard (x1)<br>• Kotak casing (x1) |
+| Komponen Lainnya | • Kabel USB Mikro - USB tipe A (x1)<br>• Kabel jumper (1 set)<br>• Breadboard (x1)<br>• Kotak casing (x1) |
 
 <br><br>
 
