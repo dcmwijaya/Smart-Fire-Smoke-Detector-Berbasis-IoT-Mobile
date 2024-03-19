@@ -60,9 +60,9 @@ The increase in population in a country is one of the development capitals. A la
 <th width="280">Block Diagram</th>
 </tr>
 <tr>
-<td><img src="https://github.com/devancakra/Smart-Fire-Smoke-Detector-Berbasis-IoT-Mobile/assets/54527592/96bb0e6b-f03d-4f39-a6d8-e993e7405f27" alt="Schematic-Diagram"></td>
-<td><img src="https://user-images.githubusercontent.com/54527592/230712584-0eeead02-6707-4474-a973-2b69ad8521e0.jpg" alt="Pictorial-Diagram"></td>
-<td><img src="https://user-images.githubusercontent.com/54527592/230714375-b773c927-3c82-4036-a520-8a1a20df778b.jpg" alt="Block-Diagram"></td>
+<td><img src="https://github.com/devancakra/Smart-Fire-Smoke-Detector-Berbasis-IoT-Mobile/assets/54527592/90a14234-17ec-4f3a-bd39-5eb1c5423162" alt="Schematic-Diagram"></td>
+<td><img src="https://github.com/devancakra/Smart-Fire-Smoke-Detector-Berbasis-IoT-Mobile/assets/54527592/4575ec64-5eb0-434b-8b98-d5ecb8a49f21" alt="Pictorial-Diagram"></td>
+<td><img src="https://github.com/devancakra/Smart-Fire-Smoke-Detector-Berbasis-IoT-Mobile/assets/54527592/812fbbec-14fd-4c3c-8d39-4337e01a2142" alt="Block-Diagram"></td>
 </tr>
 </table>
 <table>
@@ -72,9 +72,9 @@ The increase in population in a country is one of the development capitals. A la
 <th width="280">Systems Diagram</th>
 </tr>
 <tr>
-<td><img src="https://github.com/devancakra/Smart-Fire-Smoke-Detector-Berbasis-IoT-Mobile/assets/54527592/77efc5b8-fc80-4b39-a979-64a548594119" alt="Infrastructure"></td>
-<td><img src="https://github.com/devancakra/Smart-Fire-Smoke-Detector-Berbasis-IoT-Mobile/assets/54527592/998fe206-f514-4cd4-92de-0d74387e539b" alt="Prototype"></td>
-<td><img src="https://github.com/devancakra/Smart-Fire-Smoke-Detector-Berbasis-IoT-Mobile/assets/54527592/46497a05-c8cd-425d-aa4b-40b430cb8f74" alt="Systems-Diagram"></td>
+<td><img src="https://github.com/devancakra/Smart-Fire-Smoke-Detector-Berbasis-IoT-Mobile/assets/54527592/27a5dea3-11ec-41d0-a3db-d57f8daaed82" alt="Infrastructure"></td>
+<td><img src="https://github.com/devancakra/Smart-Fire-Smoke-Detector-Berbasis-IoT-Mobile/assets/54527592/ad3a032a-621d-4392-9a74-efac2f7c3874" alt="Prototype"></td>
+<td><img src="https://github.com/devancakra/Smart-Fire-Smoke-Detector-Berbasis-IoT-Mobile/assets/54527592/e9c61462-6b6b-4eb0-81dd-c919b64cd3e4" alt="Systems-Diagram"></td>
 </tr>
 </table>
 
