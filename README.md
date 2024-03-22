@@ -163,13 +163,13 @@ The increase in population in a country is one of the development capitals. A la
 
    </td></tr></table><br>
    
-2. Get access key :
+2. Activate Access Key :
 
    <table><tr><td width="810">
       
    • Go to ``` Account ``` menu.
 
-   • Click ``` Get access key ``` to unlock all services.
+   • Click ``` Get access key ``` to use the regular service facilities.
 
    </td></tr></table><br>
    
