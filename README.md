@@ -169,7 +169,7 @@ The increase in population in a country is one of the development capitals. A la
       
    • Go to ``` Account ``` menu.
 
-   • Click ``` Get access key ``` to use the regular service facilities.
+   • Click ``` Activate Access Key ``` to use the regular service facilities.
 
    </td></tr></table><br>
    
