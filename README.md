@@ -169,7 +169,9 @@ The increase in population in a country is one of the development capitals. A la
       
    • Go to ``` Account ``` menu.
 
-   • Click ``` Get Access Key ``` to use the regular service facilities.
+   • Click ``` Get Access Key ``` to generate an access key. This process only needs to be done once.
+
+   • If you have activated an access key before, skip this step.
 
    </td></tr></table><br>
    
