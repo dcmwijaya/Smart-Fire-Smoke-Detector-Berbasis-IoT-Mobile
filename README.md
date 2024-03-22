@@ -163,7 +163,17 @@ The increase in population in a country is one of the development capitals. A la
 
    </td></tr></table><br>
    
-2. Create applications :
+2. Get access key :
+
+   <table><tr><td width="810">
+      
+   • Go to ``` Account ``` menu.
+
+   • Click ``` Get access key ``` to access the service.
+
+   </td></tr></table><br>
+   
+3. Create applications :
 
    <table><tr><td width="810">
       
@@ -178,7 +188,7 @@ The increase in population in a country is one of the development capitals. A la
 
    </td></tr></table><br>
    
-3. Create a device :
+4. Create a device :
 
    <table><tr><td width="810">
       
@@ -190,7 +200,7 @@ The increase in population in a country is one of the development capitals. A la
 
    </td></tr></table><br>
    
-4. Firmware configuration :
+5. Firmware configuration :
 
    <table><tr><td width="810">
       
