@@ -22,8 +22,8 @@ FirebaseConfig config;
 
 // Sensor & Actuator
 #include <MQ2_LPG.h>
-MQ2Sensor mq2;
 #define Gas_Pin A0
+MQ2Sensor mq2(Gas_Pin);
 #define Flame_Pin D5
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>
@@ -56,17 +56,17 @@ void koneksiFirebase(){
   Firebase.reconnectWiFi(true);
 }
 
-// Gas Calibration Data.
-#define RL_Value 10
+// Kalibrasi Data Gas
+#define RL_Value 100
 #define x1_Value 199.150007852152
 #define x2_Value 797.3322752256328
 #define y1_Value 1.664988323698715
 #define y2_Value 0.8990240080541785
 #define x_Value 497.4177875376839
 #define y_Value 1.0876679972710004
-#define Ro_Value 2.7
-#define Voltage_Value 3.3
-#define bitADC_Value 1023.0
+#define Ro_Value 6.02
+#define Voltage_Value 5.0
+#define bitADC_Value 1023.0 // Resolusi ADC berdasarkan papan pengembangan yang sedang dipakai
 
 void mq2Calibration(){
   mq2.RL(RL_Value); // Nilai RL yang ditetapkan
@@ -75,8 +75,8 @@ void mq2Calibration(){
   mq2.BitADC(bitADC_Value); // Nilai BitADC yang ditetapkan
   mq2.mCurve(x1_Value, x2_Value, y1_Value, y2_Value); // Nilai m_Curve yang ditetapkan
   mq2.bCurve(x_Value, y_Value); // Nilai b_Curve yang ditetapkan
-  mq2.getDataCalibration(); // Memanggil data kalibrasi data MQ2 untuk Gas LPG
-//  mq2.viewDataCalibration(); // Tampilkan data MQ2 yang telah di kalibrasi
+  mq2.getCalibrationData(); // Memanggil data kalibrasi data MQ2 untuk Gas LPG
+//  mq2.viewCalibrationData(); // Tampilkan data MQ2 yang telah di kalibrasi
 }
 
 // Baca Sensor
@@ -163,8 +163,7 @@ void setup(){
   Serial.begin(115200); // Baudrate
   koneksiWiFiAntares(); // Koneksi WiFi-Antares dengan protokol MQTT
   koneksiFirebase(); // Koneksi Firebase 
-  pinMode(Gas_Pin,INPUT); // Inisialisasi status pin gas sebagai INPUT
-  mq2.begin(Gas_Pin); // Memulai MQ2
+  mq2.begin(); // Memulai MQ2
   pinMode(Flame_Pin,INPUT_PULLUP); // Inisialisasi status pin flame sebagai INPUT_PULLUP
   pinMode(Buzzer_Pin,OUTPUT); // Inisialisasi status pin buzzer sebagai OUTPUT
   digitalWrite(Buzzer_Pin, LOW); // Default Buzzer: OFF
