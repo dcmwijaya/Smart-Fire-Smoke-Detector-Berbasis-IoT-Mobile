@@ -21,7 +21,7 @@ FirebaseAuth auth;
 FirebaseConfig config;
 
 // Sensor & Actuator
-#include <MQ2_LPG.h>
+#include "MQ2_LPG.h"
 #define Gas_Pin A0
 MQ2Sensor mq2(Gas_Pin);
 #define Flame_Pin D5
