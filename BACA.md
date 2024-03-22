@@ -163,13 +163,13 @@ Peningkatan penduduk di suatu negara merupakan salah satu modal pembangunan. Jum
 
    </td></tr></table><br>
    
-2. Get access key :
+2. Mengaktifkan access key :
 
    <table><tr><td width="810">
       
    • Masuk ke menu ``` Account ```.
 
-   • Klik ``` Get access key ``` untuk membuka semua layanan.
+   • Klik ``` Activate Access Key ``` agar dapat menggunakan fasilitas layanan reguler.
 
    </td></tr></table><br>
    
