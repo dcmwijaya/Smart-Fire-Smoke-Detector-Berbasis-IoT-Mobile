@@ -169,9 +169,9 @@ Peningkatan penduduk di suatu negara merupakan salah satu modal pembangunan. Jum
       
    • Masuk ke menu ``` Account ```.
 
-   • Klik ``` Get Access Key ``` untuk menghasilkan kunci akses akun. Proses ini hanya perlu dilakukan sekali.
+   • Klik ``` Get Access Key ``` untuk menghasilkan access key. Proses ini hanya perlu dilakukan sekali.
 
-   • Jika anda sudah pernah mengaktifkan access key sebelumnya, maka tahapan ini langsung lewati saja.
+   • Jika anda sudah pernah mengaktifkan access key sebelumnya, lewati langkah ini.
 
    </td></tr></table><br>
    
