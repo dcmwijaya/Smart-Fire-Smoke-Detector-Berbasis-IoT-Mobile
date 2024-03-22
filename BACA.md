@@ -163,7 +163,17 @@ Peningkatan penduduk di suatu negara merupakan salah satu modal pembangunan. Jum
 
    </td></tr></table><br>
    
-2. Membuat applications :
+2. Get access key :
+
+   <table><tr><td width="810">
+      
+   • Masuk ke menu ``` Account ```.
+
+   • Klik ``` Get access key ``` untuk membuka semua layanan.
+
+   </td></tr></table><br>
+   
+3. Membuat applications :
 
    <table><tr><td width="810">
       
@@ -178,7 +188,7 @@ Peningkatan penduduk di suatu negara merupakan salah satu modal pembangunan. Jum
 
    </td></tr></table><br>
    
-3. Membuat device :
+4. Membuat device :
 
    <table><tr><td width="810">
       
@@ -190,7 +200,7 @@ Peningkatan penduduk di suatu negara merupakan salah satu modal pembangunan. Jum
 
    </td></tr></table><br>
    
-4. Konfigurasi firmware :
+5. Konfigurasi firmware :
 
    <table><tr><td width="810">
       
