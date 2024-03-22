@@ -169,7 +169,7 @@ The increase in population in a country is one of the development capitals. A la
       
    • Go to ``` Account ``` menu.
 
-   • Click ``` Get access key ``` to access the service.
+   • Click ``` Get access key ``` to unlock all services.
 
    </td></tr></table><br>
    
