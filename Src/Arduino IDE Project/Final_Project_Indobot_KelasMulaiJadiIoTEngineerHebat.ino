@@ -15,12 +15,12 @@
 #define deviceName "YOUR_ANTARES_DEVICE_NAME"
 #define API_KEY "YOUR_FIREBASE_API_KEY"
 #define DATABASE_URL "YOUR_FIREBASE_DATABASE_URL" 
+AntaresESP8266MQTT antares(ACCESSKEY);
 FirebaseData fbdo; 
 FirebaseAuth auth;
 FirebaseConfig config;
-AntaresESP8266MQTT antares(ACCESSKEY);
-unsigned long sendDataPrevMillis = 0;
 bool signupOK = false;
+unsigned long sendDataPrevMillis = 0;
 
 // Sensor
 #define Gas_Pin A0
