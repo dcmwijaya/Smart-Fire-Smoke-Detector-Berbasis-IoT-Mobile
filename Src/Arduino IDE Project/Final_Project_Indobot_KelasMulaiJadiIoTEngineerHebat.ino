@@ -1,41 +1,54 @@
-// WiFi
+// Pustaka yang digunakan
 #include <ESP8266WiFi.h>
 #include <AntaresESP8266MQTT.h>
-#define WIFISSID "YOUR_WIFI_NAME"
-#define PASSWORD "YOUR_WIFI_PASSWORD"
-
-// MQTT ANTARES
-#define ACCESSKEY "YOUR_ANTARES_ACCESS_KEY"
-#define projectName "YOUR_ANTARES_APPLICATION_NAME"
-#define deviceName "YOUR_ANTARES_DEVICE_NAME"
-AntaresESP8266MQTT antares(ACCESSKEY);
-
-// Firebase
 #include <Firebase_ESP_Client.h>
 #include "addons/TokenHelper.h"
 #include "addons/RTDBHelper.h"
+#include <MQ2_LPG.h>
+#include <LiquidCrystal_I2C.h>
+
+// Koneksi
+#define WIFISSID "YOUR_WIFI_NAME"
+#define PASSWORD "YOUR_WIFI_PASSWORD"
+#define ACCESSKEY "YOUR_ANTARES_ACCESS_KEY"
+#define projectName "YOUR_ANTARES_APPLICATION_NAME"
+#define deviceName "YOUR_ANTARES_DEVICE_NAME"
 #define API_KEY "YOUR_FIREBASE_API_KEY"
 #define DATABASE_URL "YOUR_FIREBASE_DATABASE_URL" 
 FirebaseData fbdo; 
 FirebaseAuth auth;
 FirebaseConfig config;
+AntaresESP8266MQTT antares(ACCESSKEY);
+unsigned long sendDataPrevMillis = 0;
+bool signupOK = false;
 
-// Sensor & Actuator
-#include <MQ2_LPG.h>
+// Sensor
 #define Gas_Pin A0
 MQ2Sensor mq2(Gas_Pin);
 #define Flame_Pin D5
-#include <Wire.h>
-#include <LiquidCrystal_I2C.h>
-LiquidCrystal_I2C lcd(0x27,16,2);
+
+// Aktuator
 #define Buzzer_Pin D3
 
-// Variabel Global
+// Layar
+LiquidCrystal_I2C lcd(0x27,16,2);
+
+// Variabel untuk keperluan sensor
 int gas_read; int flame_read;
 String gas_status, flame_status;
 int gasAntares; int flameAntares;
-unsigned long sendDataPrevMillis = 0;
-bool signupOK = false;
+
+// Variabel untuk kalibrasi
+#define RL_Value 100
+#define x1_Value 199.150007852152
+#define x2_Value 797.3322752256328
+#define y1_Value 1.664988323698715
+#define y2_Value 0.8990240080541785
+#define x_Value 497.4177875376839
+#define y_Value 1.0876679972710004
+#define Ro_Value 6.02
+#define Voltage_Value 5.0
+#define bitADC_Value 1023.0 // Resolusi ADC berdasarkan papan pengembangan yang sedang dipakai
 
 // Koneksi WiFi-Antares dengan protokol MQTT
 void koneksiWiFiAntares(){
@@ -56,18 +69,7 @@ void koneksiFirebase(){
   Firebase.reconnectWiFi(true);
 }
 
-// Kalibrasi Data Gas
-#define RL_Value 100
-#define x1_Value 199.150007852152
-#define x2_Value 797.3322752256328
-#define y1_Value 1.664988323698715
-#define y2_Value 0.8990240080541785
-#define x_Value 497.4177875376839
-#define y_Value 1.0876679972710004
-#define Ro_Value 6.02
-#define Voltage_Value 5.0
-#define bitADC_Value 1023.0 // Resolusi ADC berdasarkan papan pengembangan yang sedang dipakai
-
+// Method untuk kalibrasi sensor gas
 void mq2Calibration(){
   mq2.RL(RL_Value); // Nilai RL yang ditetapkan
   mq2.Ro(Ro_Value); // Nilai Ro yang ditetapkan
@@ -79,14 +81,14 @@ void mq2Calibration(){
 //  mq2.viewCalibrationData(); // Tampilkan data MQ2 yang telah di kalibrasi
 }
 
-// Baca Sensor
+// Method untuk baca sensor
 void bacaSensor(){
   mq2Calibration(); // Memanggil method mq2Calibration
   gas_read = mq2.readGas(); // Baca data sensor Gas LPG
   flame_read = digitalRead(Flame_Pin); // Baca data sensor Flame
 }
 
-// Publish Data Sensor ke Platform IoT Antares
+// Method untuk mengirim data sensor ke Antares
 void sendAntares(){
   bacaSensor(); // Memanggil method bacaSensor
   antares.add("gas", gas_read); // Menambahkan topic dengan nama "gas"
@@ -95,11 +97,12 @@ void sendAntares(){
   delay(5000); // Tunda 5 detik
 }
 
-// Subscribe Data IoT Antares
+// Method untuk meminta data sensor dari Antares
 void callback(char topic[], byte payload[], unsigned int length) {
   antares.get(topic, payload, length); // Memanggil topic dengan payloadnya
   gasAntares = antares.getInt("gas"); // Memanggil topic "gas" dan disimpan ke dalam variabel gasAntares
   flameAntares = antares.getInt("flame"); // Memanggil topic "flame" dan disimpan ke dalam variabel flameAntares
+  
   // Print subscribe data ke serial monitor
   Serial.println("[ANTARES] SUBSCRIBE DATA:\n"); 
   Serial.println("topic: " + antares.getTopic());
@@ -108,8 +111,8 @@ void callback(char topic[], byte payload[], unsigned int length) {
   Serial.println("flame: " + String(flameAntares)+"\n");
 }
 
-// Pengolahan Data Sensor
-void Olah_Data(){
+// Method untuk menentukan batasan bahaya pada sensor gas & api
+void TresholdSensorState(){
   // Cek Sensor Gas: LPG
   if(gasAntares > 200){ // Jika gas LPG lebih dari 200 maka :
     gas_status = String(gasAntares)+"ppm-Danger"; Serial.println("Gas Monitoring: "+String(gas_status)+" => (Evacuate) - Alarm is ringing"); Display_LCD(" ON ", " "); // Cetak Data
@@ -128,17 +131,9 @@ void Olah_Data(){
   }
 }
 
-// Cetak Data Sensor di LCD
-void Display_LCD(String BuzzerGas, String BuzzerFlame){
-    lcd.setCursor(0,0); lcd.print("G: "); lcd.print(gasAntares,1); // Cetak data gas di baris 0, kolom 0
-    lcd.setCursor(10,0); lcd.print("B:"); lcd.print(BuzzerGas); // Cetak data buzzer di baris 10, kolom 0
-    lcd.setCursor(0,1); lcd.print("F: "); lcd.print(flameAntares); // Cetak data flame di baris 0, kolom 1
-    lcd.setCursor(10,1); lcd.print("B:"); lcd.print(BuzzerFlame); // Cetak data buzzer di baris 10, kolom 1
-}
-
-// Kirim Data IoT ke Platform Firebase
+// Method untuk mengirim data status sensor ke Firebase
 void sendFirebase(){
-  Olah_Data(); // Memanggil method Olah_Data
+  TresholdSensorState(); // Memanggil method TresholdSensorState
   Firebase.RTDB.setString(&fbdo, "/Detect/Gas", gas_status); // Mengirimkan data gas ke firebase
   Firebase.RTDB.setString(&fbdo, "/Detect/Flame", flame_status); // Mengirimkan data flame ke firebase
   if (Firebase.ready() && signupOK && (millis() - sendDataPrevMillis > 5000 || sendDataPrevMillis == 0)){ // Jika Firebase terhubung dan interval waktu ditetapkan setiap 5 detik sekali dalam mengirimkan data maka :
@@ -158,22 +153,35 @@ void sendFirebase(){
   }
 }
 
-// Method Setup
-void setup(){
-  Serial.begin(115200); // Baudrate
-  koneksiWiFiAntares(); // Koneksi WiFi-Antares dengan protokol MQTT
-  koneksiFirebase(); // Koneksi Firebase 
-  mq2.begin(); // Memulai MQ2
-  pinMode(Flame_Pin,INPUT_PULLUP); // Inisialisasi status pin flame sebagai INPUT_PULLUP
-  pinMode(Buzzer_Pin,OUTPUT); // Inisialisasi status pin buzzer sebagai OUTPUT
-  digitalWrite(Buzzer_Pin, LOW); // Default Buzzer: OFF
+// Method untuk memulai LCD
+void LCDinit() {
   lcd.init(); // Memulai LCD
   lcd.backlight(); delay(250); lcd.noBacklight(); delay(250); lcd.backlight(); // Splash Screen
   lcd.setCursor(0,0); lcd.print("Smart Fire-Smoke"); lcd.setCursor(4,1); lcd.print("Detector"); delay(3000); // Menampilkan data pada LCD
   lcd.clear(); // Menghapus penampilan data pada LCD
 }
 
-// Method Loop
+// Method untuk mencetak data sensor ke LCD
+void Display_LCD(String BuzzerGas, String BuzzerFlame){
+  lcd.setCursor(0,0); lcd.print("G: "); lcd.print(gasAntares,1); // Cetak data gas di baris 0, kolom 0
+  lcd.setCursor(10,0); lcd.print("B:"); lcd.print(BuzzerGas); // Cetak data buzzer di baris 10, kolom 0
+  lcd.setCursor(0,1); lcd.print("F: "); lcd.print(flameAntares); // Cetak data flame di baris 0, kolom 1
+  lcd.setCursor(10,1); lcd.print("B:"); lcd.print(BuzzerFlame); // Cetak data buzzer di baris 10, kolom 1
+}
+
+// Method yang dijalankan sekali
+void setup(){
+  Serial.begin(115200);  // Baudrate untuk papan Wemos 
+  mq2.begin(); // Memulai MQ2
+  pinMode(Flame_Pin,INPUT_PULLUP); // Inisialisasi status pin flame sebagai INPUT_PULLUP
+  pinMode(Buzzer_Pin,OUTPUT); // Inisialisasi status pin buzzer sebagai OUTPUT
+  digitalWrite(Buzzer_Pin, LOW); // Default buzzer: OFF
+  koneksiWiFiAntares(); // Memanggil method koneksiWiFiAntares
+  koneksiFirebase(); // Memanggil method koneksiFirebase
+  LCDinit(); // Memanggil method LCDinit
+}
+
+// Method yang dijalankan berulang kali
 void loop(){
   antares.checkMqttConnection(); // Mengecek koneksi MQTT berhasil atau tidak
   sendAntares(); // Memanggil method sendAntares
