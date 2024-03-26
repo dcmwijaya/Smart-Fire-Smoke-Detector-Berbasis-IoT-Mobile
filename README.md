@@ -307,14 +307,16 @@ The increase in population in a country is one of the development capitals. A la
 ## Highlights
 <table>
 <tr>
-<th width="280">MIT App Inventor</th>
-<th width="280">Experiment</th>
-<th width="280">Firebase</th>
+<th width="210">MIT App Inventor</th>
+<th width="210">Experiment</th>
+<th width="210">Firebase</th>
+<th width="210">Antares</th>
 </tr>
 <tr>
 <td><img src="https://github.com/devancakra/Smart-Fire-Smoke-Detector-Berbasis-IoT-Mobile/assets/54527592/8fd3aaff-4cc3-4e20-bb7d-e6901f313edd" alt="Konfigurasi-MITAppInventor"></td>
 <td><img src="https://github.com/devancakra/Smart-Fire-Smoke-Detector-Berbasis-IoT-Mobile/assets/54527592/f7e977d1-2a2d-4799-ab7f-e691ab59180d" alt="Percobaan"></td>
 <td><img src="https://user-images.githubusercontent.com/54527592/230712751-33315d3e-0264-49d5-be01-26cca253053e.JPG" alt="Firebase"></td>
+<td><img src="https://github.com/devancakra/Smart-Fire-Smoke-Detector-Berbasis-IoT-Mobile/assets/54527592/f35b3b15-bcce-4b9d-88c4-92a96780965d" alt="Antares"></td>
 </tr>
 </table>
 <table>
