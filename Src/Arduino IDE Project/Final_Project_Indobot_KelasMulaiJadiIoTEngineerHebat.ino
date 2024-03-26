@@ -99,7 +99,7 @@ void sendAntares(){
 
 // Method untuk meminta data sensor dari Antares
 void callback(char topic[], byte payload[], unsigned int length) {
-  antares.get(topic, payload, length); // Memanggil topic dengan payloadnya
+  antares.get(topic, payload, length); // Memasukkan topic dan payload ke dalam format antares
   gasAntares = antares.getInt("gas"); // Memanggil topic "gas" dan disimpan ke dalam variabel gasAntares
   flameAntares = antares.getInt("flame"); // Memanggil topic "flame" dan disimpan ke dalam variabel flameAntares
   
