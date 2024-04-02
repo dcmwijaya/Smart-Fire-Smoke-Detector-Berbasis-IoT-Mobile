@@ -128,6 +128,12 @@ void loop() {
 
 <br><br>
 
+## MQ-2 Sensor Calibration for LPG Gas
+MQ-2 sensor calibration tutorial for LPG Gas: <a href="https://github.com/devancakra/MQ2_LPG_Library/blob/master/extras/How-To-Calibration.md">Click Here
+</a>
+
+<br><br>
+
 ## Arduino IDE Setup
 1. Open the ``` Arduino IDE ``` first, then open the project by clicking ``` File ``` -> ``` Open ``` :
 
