@@ -15,7 +15,7 @@ The increase in population in a country is one of the development capitals. A la
 | Development Board | Wemos D1 R2 |
 | Code Editor | Arduino IDE |
 | Application Support | MIT App Inventor |
-| Driver | USB-Serial CH340 |
+| Driver | CH340 USB Driver |
 | IoT Platform | Antares |
 | Communications Protocol | • Inter Integrated Circuit (I2C)<br>• Transmission Control Protocol/Internet Protocol (TCP/IP)<br>• Message Queuing Telemetry Transport (MQTT) |
 | IoT Architecture | 4 Layer |
@@ -35,17 +35,17 @@ The increase in population in a country is one of the development capitals. A la
    <table><tr><td width="810">
 
    ```
-   https://www.arduino.cc/en/software
+   https://bit.ly/ArduinoIDE_Installer
    ```
 
    </td></tr></table><br>
 
-2. USB-Serial CH340
+2. CH340 USB Driver
 
    <table><tr><td width="810">
 
    ```
-   https://bit.ly/CH340_Driver
+   https://bit.ly/CH340_USB_Driver
    ```
 
    </td></tr></table>
