@@ -15,7 +15,7 @@ Peningkatan penduduk di suatu negara merupakan salah satu modal pembangunan. Jum
 | Papan Pengembangan | Wemos D1 R2 |
 | Editor Kode | Arduino IDE |
 | Dukungan Aplikasi | MIT App Inventor |
-| Driver | USB-Serial CH340 |
+| Driver | CH340 USB Driver |
 | Platform IoT | Antares |
 | Protokol Komunikasi | • Inter Integrated Circuit (I2C)<br>• Transmission Control Protocol/Internet Protocol (TCP/IP)<br>• Message Queuing Telemetry Transport (MQTT) |
 | Arsitektur IoT | 4 Lapisan |
@@ -35,17 +35,17 @@ Peningkatan penduduk di suatu negara merupakan salah satu modal pembangunan. Jum
    <table><tr><td width="810">
 
    ```
-   https://www.arduino.cc/en/software
+   https://bit.ly/ArduinoIDE_Installer
    ```
 
    </td></tr></table><br>
 
-2. USB-Serial CH340
+2. CH340 USB Driver
 
    <table><tr><td width="810">
 
    ```
-   https://bit.ly/CH340_Driver
+   https://bit.ly/CH340_USB_Driver
    ```
 
    </td></tr></table>
