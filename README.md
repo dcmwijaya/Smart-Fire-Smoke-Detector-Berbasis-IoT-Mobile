@@ -89,7 +89,7 @@ The difference in pinouts on the Wemos D1 R1 and R2 boards is clearly shown in t
 </tr>
 <tr>
 <td><img src="https://github.com/devancakra/Smart-Fire-Smoke-Detector-Berbasis-IoT-Mobile/assets/54527592/ac59a0e2-d44e-4aca-bd34-b7843523d267" alt="Wemos D1 R1 Pinout Reference"></td>
-<td><img src="https://github.com/devancakra/Smart-Fire-Smoke-Detector-Berbasis-IoT-Mobile/assets/54527592/5e463a21-b732-48a9-af7f-a3d96101fcb5" alt="Wemos D1 R2 Pinout Reference"></td>
+<td><img src="https://github.com/devancakra/Smart-Fire-Smoke-Detector-Berbasis-IoT-Mobile/assets/54527592/fd9cbdc0-528f-4904-8483-23a5d83687ad" alt="Wemos D1 R2 Pinout Reference"></td>
 </tr>
 </table>
 
