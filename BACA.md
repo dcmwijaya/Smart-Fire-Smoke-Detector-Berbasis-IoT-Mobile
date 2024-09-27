@@ -1,7 +1,7 @@
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?style=flat)](https://github.com/ellerbrock/open-source-badges/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?logo=github&color=%23F7DF1E)](https://opensource.org/licenses/MIT)
-![GitHub last commit](https://img.shields.io/github/last-commit/devancakra/Smart-Fire-Smoke-Detector-Berbasis-IoT-Mobile)
-![Project](https://img.shields.io/badge/Project-Mobile%20IoT-light.svg?style=flat&logo=arduino&logoColor=white&color=%23F7DF1E)
+![GitHub last commit](https://img.shields.io/github/last-commit/devancakra/Smart-Fire-Smoke-Detector-Berbasis-IoT-Mobile?logo=Codeforces&logoColor=white&color=%23F7DF1E)
+![Project](https://img.shields.io/badge/Project-Internet%20of%20Things-light.svg?style=flat&logo=arduino&logoColor=white&color=%23F7DF1E)
 
 # Smart-Fire-Smoke-Detector-Berbasis-IoT-Mobile
 <strong>Tugas Akhir Indobot Academy: Kelas Awal untuk Menjadi Insinyur IoT yang Hebat Batch 1</strong><br/><br/>
@@ -60,9 +60,9 @@ Peningkatan penduduk di suatu negara merupakan salah satu modal pembangunan. Jum
 <th width="280">Diagram Blok</th>
 </tr>
 <tr>
-<td><img src="https://github.com/devancakra/Smart-Fire-Smoke-Detector-Berbasis-IoT-Mobile/assets/54527592/90a14234-17ec-4f3a-bd39-5eb1c5423162" alt="Schematic-Diagram"></td>
-<td><img src="https://github.com/devancakra/Smart-Fire-Smoke-Detector-Berbasis-IoT-Mobile/assets/54527592/4575ec64-5eb0-434b-8b98-d5ecb8a49f21" alt="Pictorial-Diagram"></td>
-<td><img src="https://github.com/devancakra/Smart-Fire-Smoke-Detector-Berbasis-IoT-Mobile/assets/54527592/812fbbec-14fd-4c3c-8d39-4337e01a2142" alt="Block-Diagram"></td>
+<td><img src="Assets/Documentation/Diagram/Schematic_Diagram.jpg" alt="schematic-diagram"></td>
+<td><img src="Assets/Documentation/Diagram/Pictorial Diagram.jpg" alt="pictorial-diagram"></td>
+<td><img src="Assets/Documentation/Diagram/Block Diagram.jpg" alt="block-diagram"></td>
 </tr>
 </table>
 <table>
@@ -72,9 +72,9 @@ Peningkatan penduduk di suatu negara merupakan salah satu modal pembangunan. Jum
 <th width="280">Diagram Sistem</th>
 </tr>
 <tr>
-<td><img src="https://github.com/devancakra/Smart-Fire-Smoke-Detector-Berbasis-IoT-Mobile/assets/54527592/27a5dea3-11ec-41d0-a3db-d57f8daaed82" alt="Infrastructure"></td>
-<td><img src="https://github.com/devancakra/Smart-Fire-Smoke-Detector-Berbasis-IoT-Mobile/assets/54527592/ad3a032a-621d-4392-9a74-efac2f7c3874" alt="Prototype"></td>
-<td><img src="https://github.com/devancakra/Smart-Fire-Smoke-Detector-Berbasis-IoT-Mobile/assets/54527592/e9c61462-6b6b-4eb0-81dd-c919b64cd3e4" alt="Systems-Diagram"></td>
+<td><img src="Assets/Documentation/Diagram/Infrastructure.jpg" alt="infrastructure"></td>
+<td><img src="Assets/Documentation/Prototype Design/Prototype.jpg" alt="prototype"></td>
+<td><img src="Assets/Documentation/Diagram/Systems Diagram.jpg" alt="systems-diagram"></td>
 </tr>
 </table>
 
@@ -88,8 +88,8 @@ Perbedaan pinout pada papan Wemos D1 R1 dan R2 ditunjukkan dengan jelas pada gam
 <th width="420">Wemos D1 R2</th>
 </tr>
 <tr>
-<td><img src="https://github.com/devancakra/Smart-Fire-Smoke-Detector-Berbasis-IoT-Mobile/assets/54527592/ac59a0e2-d44e-4aca-bd34-b7843523d267" alt="Wemos D1 R1 Pinout Reference"></td>
-<td><img src="https://github.com/devancakra/Smart-Fire-Smoke-Detector-Berbasis-IoT-Mobile/assets/54527592/fd9cbdc0-528f-4904-8483-23a5d83687ad" alt="Wemos D1 R2 Pinout Reference"></td>
+<td><img src="Assets/Documentation/Pinout/Wemos D1 R1.jpg" alt="wemos-d1-r1-pinout-reference"></td>
+<td><img src="Assets/Documentation/Pinout/Wemos D1 R2.jpg" alt="wemos-d1-r2-pinout-reference"></td>
 </tr>
 </table>
 
@@ -376,15 +376,15 @@ Tutorial kalibrasi sensor MQ-2 untuk Gas LPG: <a href="https://github.com/devanc
 <table>
 <tr>
 <th width="210">MIT App Inventor</th>
-<th width="210">Percobaan</th>
+<th width="210">Perangkat</th>
 <th width="210">Firebase</th>
 <th width="210">Antares</th>
 </tr>
 <tr>
-<td><img src="https://github.com/devancakra/Smart-Fire-Smoke-Detector-Berbasis-IoT-Mobile/assets/54527592/8fd3aaff-4cc3-4e20-bb7d-e6901f313edd" alt="Konfigurasi-MITAppInventor"></td>
-<td><img src="https://github.com/devancakra/Smart-Fire-Smoke-Detector-Berbasis-IoT-Mobile/assets/54527592/f7e977d1-2a2d-4799-ab7f-e691ab59180d" alt="Percobaan"></td>
-<td><img src="https://user-images.githubusercontent.com/54527592/230712751-33315d3e-0264-49d5-be01-26cca253053e.JPG" alt="Firebase"></td>
-<td><img src="https://github.com/devancakra/Smart-Fire-Smoke-Detector-Berbasis-IoT-Mobile/assets/54527592/f35b3b15-bcce-4b9d-88c4-92a96780965d" alt="Antares"></td>
+<td><img src="Assets/Documentation/Experiment/MIT App Inventor.jpg" alt="mit-app-inventor"></td>
+<td><img src="Assets/Documentation/Experiment/Smart Fire-Smoke Detector.jpg" alt="device"></td>
+<td><img src="Assets/Documentation/Experiment/Firebase.jpg" alt="firebase"></td>
+<td><img src="Assets/Documentation/Experiment/Antares.jpg" alt="antares"></td>
 </tr>
 </table>
 <table>
@@ -392,8 +392,8 @@ Tutorial kalibrasi sensor MQ-2 untuk Gas LPG: <a href="https://github.com/devanc
 <th colspan="2">Simulasi Pemantauan dengan Aplikasi Mobile</th>
 </tr>
 <tr>
-<td width="420"><img src="https://user-images.githubusercontent.com/54527592/230712782-dc6db3e1-b8d2-40e3-8a2d-8d55158c4a8d.png" alt="Monitoring-1"></td>
-<td width="420"><img src="https://user-images.githubusercontent.com/54527592/230712794-f99306df-482b-4232-8f65-bf8caaec16e2.jpg" alt="Monitoring-2"></td>
+<td width="420"><img src="Assets/Documentation/Experiment/Monitoring_Mobile_Apps-1.jpg" alt="monitoring-1"></td>
+<td width="420"><img src="Assets/Documentation/Experiment/Monitoring_Mobile_Apps-2.jpg" alt="monitoring-2"></td>
 </tr>
 </table>
 
