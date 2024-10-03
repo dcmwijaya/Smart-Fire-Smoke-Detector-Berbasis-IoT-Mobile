@@ -5,7 +5,7 @@
 ![Type](https://img.shields.io/badge/Type-Apprenticeship-light.svg?style=flat&logo=gitbook&logoColor=white&color=%23F7DF1E)
 
 # Smart-Fire-Smoke-Detector-Berbasis-IoT-Mobile
-<strong>Indobot Academy Final Project: The Starting Class to Become a Great IoT Engineer Batch 1</strong><br/><br/>
+<strong>Starting Class to Become a Great IoT Engineer Batch 1</strong><br/><br/>
 The increase in population in a country is one of the development capitals. A large population can influence the development of settlements. On the other hand, settlements that are not well regulated can lead to disasters, such as fires. Fire disasters that occur can result in material and immaterial losses. Therefore, the goal of this project is none other than to produce a good fire detection system. This project has been implemented and took approximately 2 weeks. The results show that the system can function properly. The system interface uses the MIT App Inventor application.
 
 <br><br>
